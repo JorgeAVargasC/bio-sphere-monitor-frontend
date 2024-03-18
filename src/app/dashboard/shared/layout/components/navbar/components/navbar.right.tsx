@@ -20,7 +20,7 @@ export const NavbarRight = () => {
       themes: {
         dark: {
           colors: {
-            primary: '#00ff',
+            primary: '#00ff'
           }
         }
       }
@@ -35,12 +35,12 @@ export const NavbarRight = () => {
             as='button'
             avatarProps={{
               isBordered: true,
-              src: 'https://i.pravatar.cc/150?u=a042581f4e29026024d',
+              src: 'https://media.licdn.com/dms/image/D4E35AQF5-qT9SRqDDA/profile-framedphoto-shrink_800_800/0/1705793221342?e=1711346400&v=beta&t=MyXmTG8IZ0JQZi7eP8r1Hpea86Ejcyz9koHnpHojkFw',
               size: 'sm'
             }}
             className='transition-transform'
-            description='@tonyreichert'
-            name='Tony Reichert'
+            description='@lauramamian'
+            name='Laura Mamián'
           />
         </DropdownTrigger>
         <DropdownMenu
@@ -52,7 +52,7 @@ export const NavbarRight = () => {
             className='h-14 gap-2'
           >
             <p className='font-bold'>Signed in as</p>
-            <p className='font-bold'>@tonyreichert</p>
+            <p className='font-bold'>@lauramamian</p>
           </DropdownItem>
           <DropdownItem key='settings'>My Settings</DropdownItem>
           <DropdownItem key='team_settings'>Team Settings</DropdownItem>
@@ -66,30 +66,46 @@ export const NavbarRight = () => {
           >
             Log Out
           </DropdownItem>
-        </DropdownMenu>
-      </Dropdown>
-      <Dropdown>
-        <DropdownTrigger>
-          <Button
-            aria-label='Toggle theme'
-            isIconOnly
-            variant='bordered'
-            size='sm'
-          >
-            {theme === 'light' ? <TbSun size={20} /> : <TbMoon size={20} />}
-          </Button>
-        </DropdownTrigger>
-        <DropdownMenu aria-label='Static Themes'>
-          {THEMES.map((item) => (
-            <DropdownItem
-              key={item.value}
-              onPress={() => setTheme(item.value)}
+          <DropdownItem>
+            <Button
+              aria-label='Toggle theme'
+              variant='bordered'
+              size='sm'
+              fullWidth
+              onPress={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+              startContent={
+                theme === 'light' ? <TbSun size={20} /> : <TbMoon size={20} />
+              }
             >
-              {item.label}
-            </DropdownItem>
-          ))}
+              {theme === 'light' ? 'Light' : 'Dark'}
+            </Button>
+          </DropdownItem>
         </DropdownMenu>
       </Dropdown>
+      <div className='hidden md:block'>
+        <Dropdown>
+          <DropdownTrigger>
+            <Button
+              aria-label='Toggle theme'
+              isIconOnly
+              variant='bordered'
+              size='sm'
+            >
+              {theme === 'light' ? <TbSun size={20} /> : <TbMoon size={20} />}
+            </Button>
+          </DropdownTrigger>
+          <DropdownMenu aria-label='Static Themes'>
+            {THEMES.map((item) => (
+              <DropdownItem
+                key={item.value}
+                onPress={() => setTheme(item.value)}
+              >
+                {item.label}
+              </DropdownItem>
+            ))}
+          </DropdownMenu>
+        </Dropdown>
+      </div>
     </div>
   )
 }

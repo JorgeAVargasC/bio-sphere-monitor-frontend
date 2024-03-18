@@ -12,8 +12,8 @@ type Actions = {
 type Store = State & Actions
 
 export const useSidebarStore = create<Store>((set, get) => ({
-  sidebarState: 'open',
-  sidebarWidth: 250,
+  sidebarState: 'close',
+  sidebarWidth: 50,
   toggleSidebar: () => {
     const { sidebarState } = get()
     set({ sidebarState: sidebarState === 'open' ? 'close' : 'open' })

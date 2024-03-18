@@ -15,7 +15,7 @@ export const NavbarLeft = () => {
         <IoIosMenu size={22} />
       </Button>
 
-      <h2 className='font-bold'>Dashboard App</h2>
+      <h2 className='hidden md:block font-bold'>Dashboard App</h2>
     </div>
   )
 }
