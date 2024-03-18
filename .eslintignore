@@ -1,0 +1,9 @@
+.eslintrc.json
+package.json
+package-lock.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+vite-env.d.ts
+tailwind.config.js
+

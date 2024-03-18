@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      // app
+      "@dashboard/*": ["./src/app/dashboard/*"],
+  
+      // app shared
+      "@hooks/*": ["./src/app/shared/hooks/*"],
+      "@app-utils/*": ["./src/app/shared/utils/*"],
+      "@config/*": ["./src/app/shared/config/*"],
+      "@styles/*": ["./src/app/shared/styles/*"],
+      "@store/*": ["./src/app/shared/store/*"],
+      "@providers/*": ["./src/app/shared/providers/*"],
+      // app shared components
+      "@components/*": ["./src/app/shared/components/*"],
+      "@forms/*": ["./src/app/shared/components/forms/*"],
+      "@ui/*": ["./src/app/shared/components/ui/*"],
+      "@components-styled/*": ["./src/app/shared/components/styled/*"],
+  
+      // assets
+      "@icons/*": ["./src/assets/icons/*"],
+      "@images/*": ["./src/assets/images/*"],
+      "@logos/*": ["./src/assets/logos/*"],
+      "@videos/*": ["./src/assets/videos/*"],
+  
+      //store
+  
+      // utils
+      "@utils/*": ["./src/utils/*"],
+  
+      // services
+      "@services/*": ["./src/services/*"],
+      
+      // axios
+      "@axios/*": ["./src/axios/*"],
+    },
+    "types": ["vite-plugin-svgr/client"]
+  },
+  
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
