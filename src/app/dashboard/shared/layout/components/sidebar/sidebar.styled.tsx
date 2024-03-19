@@ -51,7 +51,7 @@ export const StyledSidebarAccordionLabel = styled.div<SidebarProps>`
     props.$sidebarState === 'open'
       ? `calc(${props.$sidebarWidth} - 38px)`
       : '0'};
-  
+
   opacity: ${(props) => (props.$sidebarState === 'open' ? 1 : 0)};
   transition: all 0.2s ease-in-out;
   overflow: hidden;

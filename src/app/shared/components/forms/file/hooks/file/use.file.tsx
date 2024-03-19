@@ -2,7 +2,13 @@ import { useState } from 'react'
 
 import { IUseFile } from './use.file.model'
 
-export const useFile = ({ name, multiple, onChange, setValue, trigger }: IUseFile) => {
+export const useFile = ({
+  name,
+  multiple,
+  onChange,
+  setValue,
+  trigger
+}: IUseFile) => {
   const [dragging, setDragging] = useState(false)
   const [files, setFiles] = useState<File[]>([])
   const [newInput, setNewInput] = useState(false) //* to solve the problem of the input type file, that does not allow to upload the same file twice

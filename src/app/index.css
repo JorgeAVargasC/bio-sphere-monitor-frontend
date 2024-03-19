@@ -1,7 +1,7 @@
 @tailwind base;
 
 h1 {
-  @apply text-2xl font-bold;
+  @apply text-xl font-semibold;
 }
 
 h2 {
@@ -9,18 +9,27 @@ h2 {
 }
 
 h3 {
-  @apply text-lg font-medium;
+  @apply text-xl font-semibold;
 }
 
 h4 {
-  @apply text-base;
+  @apply text-lg font-semibold;
 }
 
 h5 {
-  @apply text-sm;
+  @apply text-base font-semibold;
 }
 
 h6 {
+  @apply text-sm font-semibold;
+}
+
+p,
+body {
+  @apply text-sm leading-6 text-justify;
+}
+
+small {
   @apply text-xs;
 }
 
@@ -32,7 +41,7 @@ h6 {
 }
 
 ::selection {
-  background-color: #F3A60D;
+  background-color: #f3a60d;
   color: white;
 }
 
@@ -58,6 +67,6 @@ body::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #F3A60D;
+  background-color: #f3a60d;
   border-radius: 10px;
 }

@@ -1,6 +1,11 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from 'axios'
 
-import { configBasic, configBlob, configFormData, configURLEncoded } from '../configs'
+import {
+  configBasic,
+  configBlob,
+  configFormData,
+  configURLEncoded
+} from '../configs'
 import { axiosTokenRequestInterceptor } from '../interceptors'
 
 type TypeEndpoint = string
@@ -30,27 +35,55 @@ const rgetBlob = async <T = any>(endpoint: TypeEndpoint) => {
 }
 
 const rpost = async <T = any, D = any>(endpoint: TypeEndpoint, data: D) => {
-  return await createAxiosInstance(configBasic).post<T, AxiosResponse<T>, D>(endpoint, data)
+  return await createAxiosInstance(configBasic).post<T, AxiosResponse<T>, D>(
+    endpoint,
+    data
+  )
 }
 
 const rpostBlob = async <T = any, D = any>(endpoint: TypeEndpoint, data: D) => {
-  return await createAxiosInstance(configBlob).post<T, AxiosResponse<T>, D>(endpoint, data)
+  return await createAxiosInstance(configBlob).post<T, AxiosResponse<T>, D>(
+    endpoint,
+    data
+  )
 }
 
-const rpostFormData = async <T = any, D = any>(endpoint: TypeEndpoint, data: D) => {
-  return await createAxiosInstance(configFormData).post<T, AxiosResponse<T>, D>(endpoint, data)
+const rpostFormData = async <T = any, D = any>(
+  endpoint: TypeEndpoint,
+  data: D
+) => {
+  return await createAxiosInstance(configFormData).post<T, AxiosResponse<T>, D>(
+    endpoint,
+    data
+  )
 }
 
-const rputFormData = async <T = any, D = any>(endpoint: TypeEndpoint, data: D) => {
-  return await createAxiosInstance(configFormData).put<T, AxiosResponse<T>, D>(endpoint, data)
+const rputFormData = async <T = any, D = any>(
+  endpoint: TypeEndpoint,
+  data: D
+) => {
+  return await createAxiosInstance(configFormData).put<T, AxiosResponse<T>, D>(
+    endpoint,
+    data
+  )
 }
 
-const rpostURLEncoded = async <T = any, D = any>(endpoint: TypeEndpoint, data: D) => {
-  return await createAxiosInstance(configURLEncoded).post<T, AxiosResponse<T>, D>(endpoint, data)
+const rpostURLEncoded = async <T = any, D = any>(
+  endpoint: TypeEndpoint,
+  data: D
+) => {
+  return await createAxiosInstance(configURLEncoded).post<
+    T,
+    AxiosResponse<T>,
+    D
+  >(endpoint, data)
 }
 
 const rput = async <T = any, D = any>(endpoint: TypeEndpoint, data: D) => {
-  return await createAxiosInstance(configBasic).put<T, AxiosResponse<T>, D>(endpoint, data)
+  return await createAxiosInstance(configBasic).put<T, AxiosResponse<T>, D>(
+    endpoint,
+    data
+  )
 }
 
 const rdelete = async <T = any>(endpoint: TypeEndpoint) => {

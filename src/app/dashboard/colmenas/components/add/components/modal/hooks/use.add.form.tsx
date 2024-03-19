@@ -1,17 +1,15 @@
 import { Resolver, useForm } from 'react-hook-form'
-import {
-  IFormValues,
-  defaultValues,
-  schema
-} from '../models/example.form.model'
+import { IFormValues, schema, defaultValues } from '../models'
 import { yupResolver } from '@hookform/resolvers/yup'
-import { useExampleFormFields } from './use.example.form.fields'
-import { useExampleFormSubmit } from './use.example.form.submit'
 
-export const useExampleForm = () => {
+import { useAddFormFields } from './use.add.form.fields'
+import { useAddFormSubmit } from './use.add.form.submit'
+
+export const useAddForm = () => {
   const methods = useForm<IFormValues>({
     defaultValues,
     criteriaMode: 'all',
+    shouldFocusError: true,
     progressive: true,
     resolver: yupResolver(schema) as Resolver<IFormValues>
   })
@@ -20,8 +18,8 @@ export const useExampleForm = () => {
     console.log(data)
   })
 
-  const { form } = useExampleFormFields({ methods })
-  const { submit } = useExampleFormSubmit({ methods })
+  const { form } = useAddFormFields({ methods })
+  const { submit } = useAddFormSubmit({ methods })
 
   return {
     methods,

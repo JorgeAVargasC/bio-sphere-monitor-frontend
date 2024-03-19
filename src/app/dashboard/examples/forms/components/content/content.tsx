@@ -13,15 +13,17 @@ export const Content = () => {
       <h6>H6 - Content</h6>
 
       <p>
-        Paragraph - Content Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde fugit
-        iure ab deserunt voluptates reiciendis magnam ad minus labore aliquam dignissimos aspernatur
-        ipsa quia quod doloribus dolorem, distinctio maxime officia! Paragraph - Content Lorem ipsum
-        dolor sit, amet consectetur adipisicing elit. Unde fugit iure ab deserunt voluptates
-        reiciendis magnam ad minus labore aliquam dignissimos aspernatur ipsa quia quod doloribus
-        dolorem, distinctio maxime officia! Paragraph - Content Lorem ipsum dolor sit, amet
-        consectetur adipisicing elit. Unde fugit iure ab deserunt voluptates reiciendis magnam ad
-        minus labore aliquam dignissimos aspernatur ipsa quia quod doloribus dolorem, distinctio
-        maxime officia!
+        Paragraph - Content Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Unde fugit iure ab deserunt voluptates reiciendis magnam ad minus
+        labore aliquam dignissimos aspernatur ipsa quia quod doloribus dolorem,
+        distinctio maxime officia! Paragraph - Content Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Unde fugit iure ab deserunt
+        voluptates reiciendis magnam ad minus labore aliquam dignissimos
+        aspernatur ipsa quia quod doloribus dolorem, distinctio maxime officia!
+        Paragraph - Content Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Unde fugit iure ab deserunt voluptates reiciendis magnam ad minus
+        labore aliquam dignissimos aspernatur ipsa quia quod doloribus dolorem,
+        distinctio maxime officia!
       </p>
 
       <label>Label - Content</label>
@@ -29,12 +31,13 @@ export const Content = () => {
       <button>Button - Content</button>
 
       <small>
-        Small - Content Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde fugit iure ab
-        deserunt voluptates reiciendis magnam ad minus labore aliquam dignissimos aspernatur ipsa
-        quia quod doloribus dolorem, distinctio maxime officia! Content Lorem ipsum dolor sit, amet
-        consectetur adipisicing elit. Unde fugit iure ab deserunt voluptates reiciendis magnam ad
-        minus labore aliquam dignissimos aspernatur ipsa quia quod doloribus dolorem, distinctio
-        maxime officia!
+        Small - Content Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. Unde fugit iure ab deserunt voluptates reiciendis magnam ad minus
+        labore aliquam dignissimos aspernatur ipsa quia quod doloribus dolorem,
+        distinctio maxime officia! Content Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Unde fugit iure ab deserunt voluptates
+        reiciendis magnam ad minus labore aliquam dignissimos aspernatur ipsa
+        quia quod doloribus dolorem, distinctio maxime officia!
       </small>
 
       <Accordion

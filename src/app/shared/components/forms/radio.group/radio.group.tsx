@@ -1,7 +1,10 @@
 import { Controller, useFormContext } from 'react-hook-form'
 
 import { IRadioGroup } from './radio.group.model'
-import { RadioGroup as NextUIRadioGroup, Radio as NextUIRadio } from '@nextui-org/react'
+import {
+  RadioGroup as NextUIRadioGroup,
+  Radio as NextUIRadio
+} from '@nextui-org/react'
 
 export const RadioGroup = ({
   name,

@@ -9,7 +9,10 @@ export const Content: React.FC<Props> = ({ children }) => {
   const sidebarWidth = useSidebarStore((state) => state.sidebarWidth)
 
   return (
-    <StyledMain $sidebarWidth={sidebarWidth} className='bg-foreground-50'>
+    <StyledMain
+      $sidebarWidth={sidebarWidth}
+      className='bg-foreground-50 z-0'
+    >
       <main>{children}</main>
     </StyledMain>
   )

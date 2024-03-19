@@ -3,7 +3,13 @@ import { Controller, useFormContext } from 'react-hook-form'
 import { ICheckbox } from './checkbox.model'
 import { Checkbox as NextUICheckbox } from '@nextui-org/react'
 
-export const Checkbox = ({ name, label, isVisible = true, size = 'sm', ...rest }: ICheckbox) => {
+export const Checkbox = ({
+  name,
+  label,
+  isVisible = true,
+  size = 'sm',
+  ...rest
+}: ICheckbox) => {
   const { control } = useFormContext()
 
   return (
@@ -24,7 +30,9 @@ export const Checkbox = ({ name, label, isVisible = true, size = 'sm', ...rest }
                   {label}
                 </NextUICheckbox>
                 {fieldState.error?.message && (
-                  <small className='text-danger-500'>{fieldState.error?.message}</small>
+                  <small className='text-danger-500'>
+                    {fieldState.error?.message}
+                  </small>
                 )}
               </div>
             )}

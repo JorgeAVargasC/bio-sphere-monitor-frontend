@@ -1,6 +1,11 @@
+import { Cards } from './components'
+
 const ColmenasPage = () => {
   return (
-    <div>ColmenasPage</div>
+    <div className='flex flex-col gap-5'>
+      {/* <Filter /> */}
+      <Cards />
+    </div>
   )
 }
 

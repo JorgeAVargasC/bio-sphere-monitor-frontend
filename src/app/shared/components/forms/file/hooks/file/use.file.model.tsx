@@ -1,4 +1,9 @@
-import { ChangeHandler, FieldValues, UseFormSetValue, UseFormTrigger } from 'react-hook-form'
+import {
+  ChangeHandler,
+  FieldValues,
+  UseFormSetValue,
+  UseFormTrigger
+} from 'react-hook-form'
 
 import { IFile } from '../../file.model'
 

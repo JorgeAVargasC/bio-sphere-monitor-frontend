@@ -49,7 +49,10 @@ export const defaultValues: IFormValues = {
 
 export const schema = yup.object().shape({
   fullName: yup.string().required('Full name is required'),
-  age: yup.number().required('Age is required').positive('Age must be a positive number'),
+  age: yup
+    .number()
+    .required('Age is required')
+    .positive('Age must be a positive number'),
   email: yup.string().email('Invalid email').required('Email is required'),
   tel: yup.string().required('Tel is required'),
   skills: yup.string().required('Skills is required'),

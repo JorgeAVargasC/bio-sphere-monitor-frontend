@@ -74,13 +74,16 @@ export const Sidebar = () => {
         $sidebarWidth={sidebarWidth}
         className='shadow-md bg-background'
       >
-        <div className='flex items-center p-3 gap-3 h-[50px]'>
+        <Link
+          to={'/dashboard'}
+          className='flex items-center p-3 gap-3 h-[50px]'
+        >
           <FaForumbee
             className='fill-primary min-w-[24px]'
             size={25}
           />
           {sidebarState === 'open' && <h2 className='truncate'>Bee K!</h2>}
-        </div>
+        </Link>
 
         <div className='flex flex-col'>
           {LINKS.map((link, index) => (
