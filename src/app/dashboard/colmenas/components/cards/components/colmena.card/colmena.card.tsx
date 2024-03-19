@@ -1,10 +1,4 @@
-import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardHeader
-} from '@nextui-org/react'
+import { Button, Card, CardBody, CardHeader } from '@nextui-org/react'
 import { IGetColmenasRes } from '@services/dashboard/colmenas/get.colmenas'
 import React from 'react'
 import { ColmenaMeasure } from './colmena.measure'
@@ -12,10 +6,19 @@ import { MdOutlineHive } from 'react-icons/md'
 
 export const ColmenaCard: React.FC<IGetColmenasRes['results'][0]> = (props) => {
   return (
-    <Card className='h-[260px]' isPressable>
+    <Card
+      className='h-[240px]'
+      isPressable
+    >
       <MdOutlineHive className='absolute w-3/4 h-auto opacity-5 bottom-0 right-0' />
-      <CardHeader>
+      <CardHeader className='flex justify-between items-center'>
         <h3>{props.name}</h3>
+        <Button
+          size='sm'
+          variant='shadow'
+        >
+          Ver más
+        </Button>
       </CardHeader>
       <CardBody className='grid grid-cols-2 gap-2'>
         <ColmenaMeasure
@@ -40,14 +43,6 @@ export const ColmenaCard: React.FC<IGetColmenasRes['results'][0]> = (props) => {
           measure='beesPerMinute'
         />
       </CardBody>
-      <CardFooter>
-        <Button
-          size='md'
-          variant='shadow'
-        >
-          Ver más
-        </Button>
-      </CardFooter>
     </Card>
   )
 }

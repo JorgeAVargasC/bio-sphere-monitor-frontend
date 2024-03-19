@@ -38,7 +38,7 @@ export const ColmenaMeasure: React.FC<Props> = ({
   }
 
   return (
-    <div className='p-1 grid gap-1 bg-foreground-50 bg-opacity-50 rounded-md backdrop-blur-sm'>
+    <div className='p-2 grid border border-foreground-100 bg-foreground-50 bg-opacity-50 rounded-md backdrop-blur-sm'>
       <div className='flex items-center gap-2'>
         <div className={colors[state]}>{alertIcons[state]}</div>
         <h6>{name}</h6>

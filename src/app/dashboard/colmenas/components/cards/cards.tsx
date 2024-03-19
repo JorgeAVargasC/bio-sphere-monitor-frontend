@@ -50,10 +50,10 @@ export const Cards: React.FC = () => {
     <div className='flex flex-col gap-3'>
       <div className='grid gap-4 grid-cols-[repeat(auto-fill,minmax(320px,1fr))]'>
         {loading
-          ? Array.from({ length: 10 }).map((_, i) => (
+          ? Array.from({ length: 5 }).map((_, i) => (
               <Skeleton
                 key={i}
-                className='w-full h-[260px] rounded-2xl'
+                className='w-full h-[240px] rounded-2xl'
               />
             ))
           : data?.results.map((colmena) => (

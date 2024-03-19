@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+import Cookies from 'js-cookie'
 
 type ThemeValue = 'light' | 'dark'
 
@@ -29,8 +30,9 @@ type Actions = {
 type Store = State & Actions
 
 export const useThemeStore = create<Store>((set) => ({
-  theme: 'dark',
+  theme: (Cookies.get('theme') as ThemeValue) || 'dark',
   setTheme: (theme) => {
     set({ theme })
+    Cookies.set('theme', theme)
   }
 }))
