@@ -42,7 +42,7 @@ export const usePredioFormSubmit = ({ methods }: Props) => {
   const { search, municipio } = methods.watch()
 
   useEffect(() => {
-    (search || municipio) && onSubmit()
+    ;(search || municipio) && onSubmit()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search, municipio])
 

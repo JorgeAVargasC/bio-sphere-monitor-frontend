@@ -13,7 +13,7 @@ export const Content: React.FC<Props> = ({ children }) => {
       $sidebarWidth={sidebarWidth}
       className='bg-foreground-50 z-0'
     >
-      <main>{children}</main>
+      <>{children}</>
     </StyledMain>
   )
 }

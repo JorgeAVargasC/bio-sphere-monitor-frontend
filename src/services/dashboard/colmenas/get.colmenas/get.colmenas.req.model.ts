@@ -1,4 +1,4 @@
 export interface IGetColmenasReq {
-  page: number;
-  limit: number;
+  page: number
+  limit: number
 }

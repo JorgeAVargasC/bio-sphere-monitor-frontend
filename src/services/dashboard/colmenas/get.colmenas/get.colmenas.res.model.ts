@@ -5,6 +5,7 @@ export interface IGetColmenasRes {
   results: {
     id: string
     name: string
+    description: string
     temperature: {
       value: number
       unit: string
@@ -23,4 +24,4 @@ export interface IGetColmenasRes {
   }[]
 }
 
-export type IGetColmenaMeasureState = "OK" | "WARNING" | "DANGER"
+export type IGetColmenaMeasureState = 'OK' | 'WARNING' | 'DANGER'

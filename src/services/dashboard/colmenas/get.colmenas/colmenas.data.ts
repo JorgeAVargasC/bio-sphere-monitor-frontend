@@ -8,6 +8,7 @@ export const colmenasData: IGetColmenasRes = {
     {
       id: '8945sd-asd8a7s-asdasd-asda79dasd',
       name: 'Colmena 1',
+      description: 'Descripción de la colmena 1',
       temperature: {
         value: 30, // WARNING
         unit: '°C',
@@ -27,6 +28,7 @@ export const colmenasData: IGetColmenasRes = {
     {
       id: '8945sd-asd8a7s-asdasd-asda79ddfgd',
       name: 'Colmena 2',
+      description: 'Descripción de la colmena 2',
       temperature: {
         value: 20, // OK
         unit: '°C',
@@ -46,6 +48,7 @@ export const colmenasData: IGetColmenasRes = {
     {
       id: '8945sd-asd8a7s-asdasd-asda09po',
       name: 'Colmena 3',
+      description: 'Descripción de la colmena 3',
       temperature: {
         value: 10, // DANGER
         unit: '°C',
@@ -65,6 +68,7 @@ export const colmenasData: IGetColmenasRes = {
     {
       id: '8945sd-asd8a7s-asdasd-asda79dghj',
       name: 'Colmena 4',
+      description: 'Descripción de la colmena 4',
       temperature: {
         value: 25, // OK
         unit: '°C',
@@ -84,6 +88,7 @@ export const colmenasData: IGetColmenasRes = {
     {
       id: '8945sd-asd8a7s-asdasd-asda79d345',
       name: 'Colmena 5',
+      description: 'Descripción de la colmena 5',
       temperature: {
         value: 35, // WARNING
         unit: '°C',

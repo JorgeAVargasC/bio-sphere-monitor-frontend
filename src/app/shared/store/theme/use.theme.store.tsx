@@ -30,7 +30,7 @@ type Actions = {
 type Store = State & Actions
 
 export const useThemeStore = create<Store>((set) => ({
-  theme: (Cookies.get('theme') as ThemeValue) || 'dark',
+  theme: (Cookies.get('theme') as ThemeValue) || 'light',
   setTheme: (theme) => {
     set({ theme })
     Cookies.set('theme', theme)

@@ -26,7 +26,7 @@ export const usePredioForm = () => {
   usePredioFormSubmit({ methods })
 
   return {
-    methods,
+    methods
     // form
   }
 }

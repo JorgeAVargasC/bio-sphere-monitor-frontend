@@ -9,7 +9,7 @@ import {
 } from '@nextui-org/react'
 import { FormProvider } from 'react-hook-form'
 import { useAddForm } from './hooks'
-import { Input, Select, Submit } from '@components/forms'
+import { Input, Submit, TextArea } from '@components/forms'
 
 interface Props extends Omit<ModalProps, 'children'> {}
 
@@ -20,9 +20,8 @@ export const Modal: React.FC<Props> = ({ isOpen, onOpenChange }) => {
     <ModalNextUI
       isOpen={isOpen}
       onOpenChange={onOpenChange}
-      size='3xl'
+      size='md'
       scrollBehavior='inside'
-      placement='top-center'
     >
       <FormProvider {...methods}>
         <form onSubmit={onSubmit}>
@@ -30,20 +29,12 @@ export const Modal: React.FC<Props> = ({ isOpen, onOpenChange }) => {
             {(onClose) => (
               <>
                 <ModalHeader>
-                  <h3>Agregar Referencia Catastral</h3>
+                  <h3>Agregar Nueva Colmena</h3>
                 </ModalHeader>
                 <ModalBody>
-                  <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
-                    <Input {...form.zona} />
-                    <Input {...form.sector} />
-                    <Input {...form.comuna} />
-                    <Input {...form.barrio} />
-                    <Input {...form.manzana} />
-                    <Input {...form.terreno} />
-                    <Select {...form.predio} />
-                    <Input {...form.torre} />
-                    <Input {...form.piso} />
-                    <Input {...form.unidad} />
+                  <div className='grid grid-cols-1 gap-3'>
+                    <Input {...form.name} />
+                    <TextArea {...form.description} />
                   </div>
                 </ModalBody>
 
@@ -51,7 +42,7 @@ export const Modal: React.FC<Props> = ({ isOpen, onOpenChange }) => {
                   <Button
                     color='danger'
                     variant='light'
-                    className='min-h-[52px]'
+                    radius='sm'
                     onPress={onClose}
                   >
                     Cerrar

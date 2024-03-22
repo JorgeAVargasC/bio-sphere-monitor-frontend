@@ -8,21 +8,20 @@ export const Add = () => {
 
   return (
     <>
-      <Tooltip content='Agregar Referencia Catastral'>
+      <Tooltip content='Agregar Nueva Colmena'>
         <Button
-          size='sm'
+          size='md'
           onPress={onOpen}
           color='primary'
-          className='bg-amb-blue-1 min-h-[52px]'
-          startContent={<TbPlus />}
+          isIconOnly
         >
-          Agregar
+          <TbPlus size={18} />
         </Button>
       </Tooltip>
 
       <Modal
         isOpen={isOpen}
-        onOpenChange={onOpenChange}        
+        onOpenChange={onOpenChange}
       />
     </>
   )

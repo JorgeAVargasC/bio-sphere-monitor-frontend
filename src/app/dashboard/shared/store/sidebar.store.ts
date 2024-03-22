@@ -7,6 +7,7 @@ type State = {
 
 type Actions = {
   toggleSidebar: () => void
+  setSidebarState: (state: State['sidebarState']) => void
 }
 
 type Store = State & Actions
@@ -18,5 +19,9 @@ export const useSidebarStore = create<Store>((set, get) => ({
     const { sidebarState } = get()
     set({ sidebarState: sidebarState === 'open' ? 'close' : 'open' })
     set({ sidebarWidth: sidebarState === 'open' ? 50 : 250 })
+  },
+  setSidebarState: (sidebarState) => {
+    set({ sidebarState })
+    set({ sidebarWidth: sidebarState === 'open' ? 250 : 50 })
   }
 }))

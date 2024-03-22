@@ -38,8 +38,8 @@ export const StyledSidebarAccordionIcon = styled.div`
   min-width: 38px;
   aspect-ratio: 1;
   svg {
-    height: 22px;
-    max-height: 22px;
+    height: 20px;
+    max-height: 20px;
   }
 `
 
