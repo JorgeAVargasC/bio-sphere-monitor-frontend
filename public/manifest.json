@@ -1,4 +1,9 @@
 {
+  "name": "Bee K!",
+  "short_name": "Bee K!",
+  "start_url": "/",
+  "description": "Bee K! is the best way to monitor your bee hives.",
+  "display": "standalone",
   "icons": [
     {
       "src": "/192.png",
