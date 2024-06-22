@@ -1,5 +1,5 @@
 import { GiHoneycomb } from 'react-icons/gi'
-import { TbForms, TbHome } from 'react-icons/tb'
+import { TbCarouselHorizontal, TbForms, TbHome } from 'react-icons/tb'
 
 export type TypeLinks = {
   label: string
@@ -27,6 +27,11 @@ export const DASHBOARD_LINKS: TypeLinks[] = [
       {
         label: 'Forms',
         href: '/dashboard/examples/forms'
+      },
+      {
+        label: 'Carrousel',
+        href: '/dashboard/examples/carrousel',
+        icon: <TbCarouselHorizontal className='w-full h-auto' />
       }
     ]
   }
@@ -50,5 +55,9 @@ export const DASHBOARD_BREADCRUMBS: Record<
   },
   '/dashboard/examples/forms': {
     label: 'Forms'
+  },
+  '/dashboard/examples/carrousel': {
+    label: 'Carrousel',
+    icon: <TbCarouselHorizontal className='w-full h-auto' />
   }
 }
