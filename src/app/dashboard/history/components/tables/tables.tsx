@@ -3,11 +3,11 @@ import { BeehiveTable } from './beehive-table'
 import { StationName } from '@dashboard/beehives/components/cards/interfaces'
 
 export const Tables = () => {
-  const query = useGetBeehivesData()
+  const data = useGetBeehivesData()
 
   return (
     <div className='grid gap-4'>
-      {Object.entries(query.data?.beehiveStation ?? {}).map(
+      {Object.entries(data?.beehiveStation ?? {}).map(
         ([stationName, stationData]) => (
           <BeehiveTable
             key={stationName}

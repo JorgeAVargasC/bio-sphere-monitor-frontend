@@ -1,15 +1,21 @@
-import { useQuery } from '@tanstack/react-query'
-import { ref, get } from 'firebase/database'
+import { useEffect, useState } from 'react'
+import { ref, onValue, off } from 'firebase/database'
 import { realtimeDB } from '../../../../firebase/firebase.config'
 import { IFirebaseData } from '@dashboard/beehives/components/cards/interfaces'
 
 export const useGetBeehivesData = () => {
-  return useQuery({
-    queryKey: ['beehives'],
-    queryFn: async () => {
-      const snapshot = await get(ref(realtimeDB))
-      console.log(snapshot.val())
-      return snapshot.val() as IFirebaseData
-    }
-  })
+  const [data, setData] = useState<IFirebaseData | null>(null)
+
+  useEffect(() => {
+    const dataRef = ref(realtimeDB)
+
+    const unsubscribe = onValue(dataRef, (snapshot) => {
+      const data = snapshot.val()
+      setData(data as IFirebaseData)
+    })
+
+    return () => off(dataRef, 'value', unsubscribe)
+  }, [])
+
+  return data
 }
