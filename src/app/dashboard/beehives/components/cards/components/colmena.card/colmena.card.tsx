@@ -47,11 +47,30 @@ export const ColmenaCard: React.FC<Props> = (props) => {
     }
   }
 
+  const getDateFormatted = (dateNumber: number) => {
+    const formatter = new Intl.DateTimeFormat('es-CO', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric'
+    })
+
+    const date = new Date(dateNumber)
+
+    return formatter.format(date)
+  }
+
   return (
     <Card className='h-[240px]'>
       <MdOutlineHive className='absolute w-3/4 h-auto opacity-5 bottom-0 right-0' />
-      <CardHeader className='flex justify-start items-center gap-2'>
+      <CardHeader className='flex flex-col items-start'>
         <h3 className='capitalize'>{stationName.split('_').join(' ')}</h3>
+        <p className='text-neutral-500'>
+          {getDateFormatted(stationData.createdAt)}
+        </p>
       </CardHeader>
       <CardBody className='grid grid-cols-2 gap-2'>
         <ColmenaMeasure

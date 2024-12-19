@@ -9,11 +9,14 @@ import {
 
 import { realtimeDB } from '../../../../../firebase/firebase.config'
 import { ref, get } from 'firebase/database'
+import { Skeleton } from '@nextui-org/react'
 
 export const Cards: React.FC = () => {
   const [data, setData] = useState<IFirebaseData | null>(null)
+  const [isLoading, setIsLoading] = useState(true)
 
   const getData = async () => {
+    setIsLoading(true)
     try {
       const headerRef = ref(realtimeDB)
       const snapshot = await get(headerRef)
@@ -22,6 +25,8 @@ export const Cards: React.FC = () => {
     } catch (error) {
       console.error('Error getting data:', error)
       setData(null)
+    } finally {
+      setIsLoading(false)
     }
   }
 
@@ -29,8 +34,17 @@ export const Cards: React.FC = () => {
     getData()
   }, [])
 
+  if (!data && isLoading) {
+    return Array.from({ length: 5 }).map((_, index) => (
+      <Skeleton
+        key={index}
+        className='h-[240px] rounded-2xl'
+      />
+    ))
+  }
+
   if (!data) {
-    return <></>
+    return <div>No existe información en el momento</div>
   }
 
   return (
