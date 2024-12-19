@@ -15,8 +15,6 @@ type Props = {
 export const ColmenaCard: React.FC<Props> = (props) => {
   const { stationData, stationName } = props
 
-  console.log(props)
-
   const getStateTemperature = (value: number) => {
     if (value < 20) {
       return 'WARNING'
@@ -67,7 +65,9 @@ export const ColmenaCard: React.FC<Props> = (props) => {
     <Card className='h-[240px]'>
       <MdOutlineHive className='absolute w-3/4 h-auto opacity-5 bottom-0 right-0' />
       <CardHeader className='flex flex-col items-start'>
-        <h3 className='capitalize'>{stationName.split('_').join(' ')}</h3>
+        <h5 className='capitalize'>
+          {stationName.split('_').join(' ').replace('station', 'colmena')}
+        </h5>
         <p className='text-neutral-500'>
           {getDateFormatted(stationData.createdAt)}
         </p>
