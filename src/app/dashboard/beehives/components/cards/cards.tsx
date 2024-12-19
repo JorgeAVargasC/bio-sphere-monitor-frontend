@@ -1,3 +1,4 @@
+import { Card, CardBody } from '@nextui-org/react'
 import { ColmenaCard } from './components'
 
 import { StationName } from './interfaces/firebase-data.interface'
@@ -8,7 +9,11 @@ export const Cards: React.FC = () => {
   const data = useGetBeehivesData()
 
   if (!data) {
-    return <div>No existe información en el momento</div>
+    return (
+      <Card>
+        <CardBody>No existe información en el momento</CardBody>
+      </Card>
+    )
   }
 
   return (
