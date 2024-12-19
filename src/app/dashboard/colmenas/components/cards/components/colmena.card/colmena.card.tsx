@@ -15,6 +15,8 @@ type Props = {
 export const ColmenaCard: React.FC<Props> = (props) => {
   const { stationData, stationName } = props
 
+  console.log(props)
+
   const getStateTempeerature = (value: number) => {
     if (value < 20) {
       return 'WARNING'
@@ -54,7 +56,7 @@ export const ColmenaCard: React.FC<Props> = (props) => {
       <CardBody className='grid grid-cols-2 gap-2'>
         <ColmenaMeasure
           name='Temperatura'
-          value={stationData.temperature.value}
+          value={stationData.temperature?.value}
           state={getStateTempeerature(stationData.temperature.value)}
           unit={stationData.temperature.unit}
           measure='temperature'

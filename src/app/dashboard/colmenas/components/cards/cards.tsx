@@ -21,6 +21,7 @@ export const Cards: React.FC = () => {
       setData(snapshot.val())
     } catch (error) {
       console.error('Error getting data:', error)
+      setData(null)
     }
   }
 
@@ -28,10 +29,14 @@ export const Cards: React.FC = () => {
     getData()
   }, [])
 
+  if (!data) {
+    return <></>
+  }
+
   return (
     <div className='flex flex-col gap-3'>
       <div className='grid gap-4 grid-cols-[repeat(auto-fill,minmax(350px,1fr))]'>
-        {Object.entries(data?.beehiveStation ?? {}).map(
+        {Object.entries(data?.beehiveStation).map(
           ([stationName, stationDataArray]) => (
             <ColmenaCard
               key={stationName}

@@ -12,7 +12,6 @@ export type StationName =
   | 'station_4'
   | 'station_5'
 
-
 export interface StationData {
   beesPerMinute: Data
   createdAt: number
