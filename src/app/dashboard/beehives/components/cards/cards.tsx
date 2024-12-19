@@ -15,8 +15,8 @@ export const Cards: React.FC = () => {
 
   const getData = async () => {
     try {
-      const headerRef = ref(realtimeDB) // Obtener una referencia a 'data'
-      const snapshot = await get(headerRef) // Obtener los datos de 'data'
+      const headerRef = ref(realtimeDB)
+      const snapshot = await get(headerRef)
       console.log(snapshot.val())
       setData(snapshot.val())
     } catch (error) {
@@ -36,15 +36,13 @@ export const Cards: React.FC = () => {
   return (
     <div className='flex flex-col gap-3'>
       <div className='grid gap-4 grid-cols-[repeat(auto-fill,minmax(350px,1fr))]'>
-        {Object.entries(data?.beehiveStation).map(
-          ([stationName, stationDataArray]) => (
-            <ColmenaCard
-              key={stationName}
-              stationData={stationDataArray[stationDataArray.length - 1]}
-              stationName={stationName as StationName}
-            />
-          )
-        )}
+        {Object.entries(data?.lastRecords).map(([stationName, stationData]) => (
+          <ColmenaCard
+            key={stationName}
+            stationData={stationData}
+            stationName={stationName as StationName}
+          />
+        ))}
       </div>
     </div>
   )

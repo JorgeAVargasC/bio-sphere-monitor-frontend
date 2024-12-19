@@ -2,7 +2,7 @@ import { create } from 'zustand'
 import Cookies from 'js-cookie'
 
 type ThemeValue = 'light' | 'dark'
-
+9
 type Theme = {
   value: ThemeValue
   label: string

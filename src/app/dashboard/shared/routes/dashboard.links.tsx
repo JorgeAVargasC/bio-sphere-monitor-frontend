@@ -1,5 +1,5 @@
 import { GiHoneycomb } from 'react-icons/gi'
-import { TbForms, TbHome } from 'react-icons/tb'
+import { TbChartHistogram } from 'react-icons/tb'
 
 export type TypeLinks = {
   label: string
@@ -10,45 +10,13 @@ export type TypeLinks = {
 
 export const DASHBOARD_LINKS: TypeLinks[] = [
   {
-    label: 'Inicio',
-    href: '/dashboard',
-    icon: <TbHome className='w-full h-auto' />
-  },
-  {
     label: 'Mis Colmenas',
-    href: '/dashboard/colmenas',
+    href: '/dashboard/beehives',
     icon: <GiHoneycomb className='w-full h-auto' />
   },
   {
-    label: 'Examples',
-    href: '/dashboard/examples',
-    icon: <TbForms className='w-full h-auto' />,
-    subRoutes: [
-      {
-        label: 'Forms',
-        href: '/dashboard/examples/forms'
-      }
-    ]
+    label: 'Historial',
+    href: '/dashboard/history',
+    icon: <TbChartHistogram className='w-full h-auto' />
   }
 ]
-
-export const DASHBOARD_BREADCRUMBS: Record<
-  string,
-  { label: string; icon?: React.ReactNode }
-> = {
-  '/dashboard': {
-    label: 'Inicio',
-    icon: <TbHome className='w-full h-auto' />
-  },
-  '/dashboard/colmenas': {
-    label: 'Mis Colmenas',
-    icon: <GiHoneycomb className='w-full h-auto' />
-  },
-  '/dashboard/examples': {
-    label: 'Examples',
-    icon: <TbForms className='w-full h-auto' />
-  },
-  '/dashboard/examples/forms': {
-    label: 'Forms'
-  }
-}

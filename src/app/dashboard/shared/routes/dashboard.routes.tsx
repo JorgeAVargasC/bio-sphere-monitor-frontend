@@ -1,8 +1,7 @@
 import DashboardLayout from '../layout'
-import { RouteObject } from 'react-router-dom'
-import { examplesRoutes } from '@dashboard/examples/shared/routes'
-import ColmenasPage from '@dashboard/colmenas'
-import HomePage from '@dashboard/home'
+import { Navigate, RouteObject } from 'react-router-dom'
+import BeehivesPage from '@dashboard/beehives'
+import HistoryPage from '@dashboard/history'
 
 export const dashboardRoutes: RouteObject = {
   path: '/dashboard',
@@ -10,15 +9,19 @@ export const dashboardRoutes: RouteObject = {
   children: [
     {
       index: true,
-      element: <HomePage />
+      element: <Navigate to='/dashboard/beehives' />
     },
     {
-      path: '/dashboard/colmenas',
-      element: <ColmenasPage />
+      path: '/dashboard/beehives',
+      element: <BeehivesPage />
     },
     {
-      path: '/dashboard/examples',
-      children: [examplesRoutes]
+      path: '/dashboard/history',
+      element: <HistoryPage />
+    },
+    {
+      path: '*',
+      element: <Navigate to='/dashboard/colmenas' />
     }
   ]
 }

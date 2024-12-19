@@ -1,6 +1,6 @@
 import { Cards } from './components'
 
-const ColmenasPage = () => {
+const BeehivesPage = () => {
   return (
     <div className='flex flex-col gap-5'>
       <h4>Mis Colmenas</h4>
@@ -9,4 +9,4 @@ const ColmenasPage = () => {
   )
 }
 
-export default ColmenasPage
+export default BeehivesPage

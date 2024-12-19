@@ -1,1 +1,1 @@
-export * from './sidebar.store'
+export * from './user-sidebar-store'
