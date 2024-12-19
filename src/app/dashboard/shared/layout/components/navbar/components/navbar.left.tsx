@@ -3,6 +3,7 @@ import { Button } from '@nextui-org/react'
 import { FaForumbee } from 'react-icons/fa'
 import { IoIosMenu } from 'react-icons/io'
 import { Link } from 'react-router-dom'
+import { BreadCrumbs } from '../../breadcrumbs/breadcrumbs'
 
 export const NavbarLeft = () => {
   const toggle = useSidebarStore((state) => state.toggleSidebar)
@@ -29,6 +30,9 @@ export const NavbarLeft = () => {
       </Link>
 
       <h2 className='hidden md:block font-bold'>Dashboard App</h2>
+      <div className='hidden md:block'>
+        <BreadCrumbs />
+      </div>
     </div>
   )
 }

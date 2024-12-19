@@ -1,4 +1,3 @@
-import { IGetColmenaMeasureState } from '@services/dashboard/colmenas/get.colmenas'
 import { FaCheckCircle } from 'react-icons/fa'
 import { GiBee } from 'react-icons/gi'
 import { MdOutlineWaterDrop } from 'react-icons/md'
@@ -7,7 +6,7 @@ import { TbAlertTriangleFilled, TbTemperature } from 'react-icons/tb'
 type Props = {
   name: string
   value: number
-  state: IGetColmenaMeasureState
+  state: 'WARNING' | 'OK' | 'DANGER'
   unit: string
   measure: 'temperature' | 'humidity' | 'beesPerMinute'
 }

@@ -1,4 +1,4 @@
-import { BreadCrumbs, Content, Navbar, Sidebar } from './components'
+import { Content, Navbar, Sidebar } from './components'
 import { Outlet } from 'react-router-dom'
 
 const DashboardLayout: React.FC = () => {
@@ -7,7 +7,6 @@ const DashboardLayout: React.FC = () => {
       <Sidebar />
       <Navbar />
       <Content>
-        <BreadCrumbs />
         <Outlet />
       </Content>
     </div>

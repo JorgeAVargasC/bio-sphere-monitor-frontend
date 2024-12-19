@@ -39,8 +39,8 @@ export const NavbarRight = () => {
               size: 'sm'
             }}
             className='transition-transform'
-            description='@lauramamian'
-            name='Laura Mamián'
+            description='@jane.doe'
+            name='Jane Doe'
           />
         </DropdownTrigger>
         <DropdownMenu
@@ -66,7 +66,7 @@ export const NavbarRight = () => {
           >
             Log Out
           </DropdownItem>
-          <DropdownItem>
+          <DropdownItem key='theme'>
             <Button
               aria-label='Toggle theme'
               variant='bordered'

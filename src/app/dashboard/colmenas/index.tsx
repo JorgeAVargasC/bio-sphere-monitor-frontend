@@ -1,13 +1,9 @@
-import { Add, Cards } from './components'
+import { Cards } from './components'
 
 const ColmenasPage = () => {
   return (
     <div className='flex flex-col gap-5'>
-      {/* <Filter /> */}
-      <div className='flex items-center justify-between'>
-        <Add />
-        {/* <ViewButton /> */}
-      </div>
+      <h4>Mis Colmenas</h4>
       <Cards />
     </div>
   )

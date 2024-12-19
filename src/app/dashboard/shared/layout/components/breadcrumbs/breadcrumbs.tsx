@@ -13,8 +13,6 @@ export const BreadCrumbs = () => {
   const [pathnames, setPathnames] = useState<string[]>([])
 
   useEffect(() => {
-    console.log('pathname', pathname)
-    console.log('pathnames', pathnames)
     setPathnames(pathname.split('/').filter((x) => x))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname])
