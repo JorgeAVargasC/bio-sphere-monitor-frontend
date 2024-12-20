@@ -18,7 +18,7 @@ export const Cards: React.FC = () => {
 
   return (
     <div className='flex flex-col gap-3'>
-      <div className='grid gap-4 grid-cols-[repeat(auto-fill,minmax(350px,1fr))]'>
+      <div className='grid gap-3 grid-cols-[repeat(auto-fill,minmax(350px,1fr))] md:grid-cols-[repeat(auto-fill,minmax(360px,1fr))]'>
         {Object.entries(data?.lastRecords ?? {}).map(
           ([stationName, stationData]) => (
             <ColmenaCard
