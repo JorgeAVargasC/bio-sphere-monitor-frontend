@@ -1,5 +1,5 @@
 import { GiHoneycomb } from 'react-icons/gi'
-import { TbChartHistogram } from 'react-icons/tb'
+import { TbHistory } from 'react-icons/tb'
 
 export type TypeLinks = {
   label: string
@@ -17,6 +17,6 @@ export const DASHBOARD_LINKS: TypeLinks[] = [
   {
     label: 'Historial',
     href: '/dashboard/history',
-    icon: <TbChartHistogram className='w-full h-auto' />
+    icon: <TbHistory className='w-full h-auto' />
   }
 ]

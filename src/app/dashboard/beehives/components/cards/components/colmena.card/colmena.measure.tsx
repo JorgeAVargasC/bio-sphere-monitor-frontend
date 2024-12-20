@@ -1,14 +1,14 @@
-import { FaCheckCircle } from 'react-icons/fa'
-import { GiBee } from 'react-icons/gi'
-import { MdOutlineWaterDrop } from 'react-icons/md'
-import { TbAlertTriangleFilled, TbTemperature } from 'react-icons/tb'
+import { alertIcons } from '@dashboard/shared/components/alert-icons'
+import { colors } from '@dashboard/shared/components/colors'
+import { icons } from '@dashboard/shared/components/measure-icons'
+import { MeasureState, MeasureVariable } from '@dashboard/shared/types'
 
 type Props = {
   name: string
   value: number
-  state: 'WARNING' | 'OK' | 'DANGER'
+  state: MeasureState
   unit: string
-  measure: 'temperature' | 'humidity' | 'beesPerMinute'
+  measure: MeasureVariable
 }
 
 export const ColmenaMeasure: React.FC<Props> = ({
@@ -18,24 +18,6 @@ export const ColmenaMeasure: React.FC<Props> = ({
   unit,
   measure
 }) => {
-  const alertIcons: Record<Props['state'], React.ReactNode> = {
-    WARNING: <TbAlertTriangleFilled size={18} />,
-    OK: <FaCheckCircle size={18} />,
-    DANGER: <TbAlertTriangleFilled size={18} />
-  }
-
-  const measureIcons: Record<Props['measure'], React.ReactNode> = {
-    temperature: <TbTemperature size={22} />,
-    humidity: <MdOutlineWaterDrop size={22} />,
-    beesPerMinute: <GiBee size={22} />
-  }
-
-  const colors: Record<Props['state'], string> = {
-    WARNING: 'text-warning',
-    OK: 'text-success',
-    DANGER: 'text-danger'
-  }
-
   return (
     <div className='p-2 grid border border-foreground-100 bg-foreground-50 bg-opacity-50 rounded-md backdrop-blur-sm'>
       <div className='flex items-center gap-2'>
@@ -43,7 +25,7 @@ export const ColmenaMeasure: React.FC<Props> = ({
         <h6>{name}</h6>
       </div>
       <div className='flex items-center'>
-        {measureIcons[measure]}
+        {icons[measure]}
         <p className='ml-1'>
           {value} {unit}
         </p>

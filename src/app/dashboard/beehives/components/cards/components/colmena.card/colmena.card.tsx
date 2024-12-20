@@ -6,6 +6,7 @@ import {
   StationData,
   StationName
 } from '../../interfaces/firebase-data.interface'
+import { getAlerts, getDateFormatted } from '@dashboard/shared/utils'
 
 type Props = {
   stationName: StationName
@@ -14,52 +15,6 @@ type Props = {
 
 export const ColmenaCard: React.FC<Props> = (props) => {
   const { stationData, stationName } = props
-
-  const getStateTemperature = (value: number) => {
-    if (value < 20) {
-      return 'WARNING'
-    } else if (value < 30) {
-      return 'OK'
-    } else {
-      return 'DANGER'
-    }
-  }
-
-  const getStateHumidity = (value: number) => {
-    if (value < 50) {
-      return 'WARNING'
-    } else if (value < 70) {
-      return 'OK'
-    } else {
-      return 'DANGER'
-    }
-  }
-
-  const getStateBeesPerMinute = (value: number) => {
-    if (value < 100) {
-      return 'WARNING'
-    } else if (value < 150) {
-      return 'OK'
-    } else {
-      return 'DANGER'
-    }
-  }
-
-  const getDateFormatted = (dateNumber: number) => {
-    const formatter = new Intl.DateTimeFormat('es-CO', {
-      weekday: 'long',
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-      hour: 'numeric',
-      minute: 'numeric',
-      second: 'numeric'
-    })
-
-    const date = new Date(dateNumber)
-
-    return formatter.format(date)
-  }
 
   return (
     <Card className='h-[240px]'>
@@ -72,25 +27,25 @@ export const ColmenaCard: React.FC<Props> = (props) => {
           {getDateFormatted(stationData.createdAt)}
         </p>
       </CardHeader>
-      <CardBody className='grid grid-cols-2 gap-2'>
+      <CardBody className='grid grid-cols-2 gap-1'>
         <ColmenaMeasure
           name='Temperatura'
           value={stationData.temperature?.value}
-          state={getStateTemperature(stationData.temperature.value)}
+          state={getAlerts('temperature', stationData.temperature.value)}
           unit={stationData.temperature.unit}
           measure='temperature'
         />
         <ColmenaMeasure
           name='Humedad'
           value={stationData.humidity.value}
-          state={getStateHumidity(stationData.humidity.value)}
+          state={getAlerts('humidity', stationData.humidity.value)}
           unit={stationData.humidity.unit}
           measure='humidity'
         />
         <ColmenaMeasure
           name='Abejas por minuto'
           value={stationData.beesPerMinute.value}
-          state={getStateBeesPerMinute(stationData.beesPerMinute.value)}
+          state={getAlerts('beesPerMinute', stationData.beesPerMinute.value)}
           unit={stationData.beesPerMinute.unit}
           measure='beesPerMinute'
         />

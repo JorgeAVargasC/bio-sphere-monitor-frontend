@@ -1,0 +1,3271 @@
+{
+    "beehiveStation": {
+        "station_1": [
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 9
+                },
+                "createdAt": 1709305200000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 71.5
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 85
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 17.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 15
+                },
+                "createdAt": 1709305260000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 58.4
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 100
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 16.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 13
+                },
+                "createdAt": 1709305320000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 72.8
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 79
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 34.8
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 6
+                },
+                "createdAt": 1709305380000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 50.8
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 94
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 28.8
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 8
+                },
+                "createdAt": 1709305440000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 66.0
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 87
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 25.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 7
+                },
+                "createdAt": 1709305500000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 58.2
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 71
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 3
+                },
+                "createdAt": 1709305560000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 77.2
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 100
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 18.4
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 13
+                },
+                "createdAt": 1709305620000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 64.4
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 77
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 24.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 4
+                },
+                "createdAt": 1709305680000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 57.7
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 81
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 35.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 1
+                },
+                "createdAt": 1709305740000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 76.1
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 98
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 31.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 17
+                },
+                "createdAt": 1709305800000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 50.3
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 100
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 22.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 13
+                },
+                "createdAt": 1709305860000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 67.2
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 81
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 21.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 18
+                },
+                "createdAt": 1709305920000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 70.9
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 92
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 25.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 18
+                },
+                "createdAt": 1709305980000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 70.6
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 100
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 20.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 6
+                },
+                "createdAt": 1709306040000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 65.3
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 90
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 16.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 16
+                },
+                "createdAt": 1709306100000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 70.2
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 87
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 31.4
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 14
+                },
+                "createdAt": 1709306160000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 51.0
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 71
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 19.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 19
+                },
+                "createdAt": 1709306220000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 51.2
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 91
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 27.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 2
+                },
+                "createdAt": 1709306280000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 58.5
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 77
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 35.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 14
+                },
+                "createdAt": 1709306340000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 78.4
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 77
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 15.4
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 6
+                },
+                "createdAt": 1709306400000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 68.5
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 91
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 21.2
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 14
+                },
+                "createdAt": 1709306460000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 57.7
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 100
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 5
+                },
+                "createdAt": 1709306520000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 65.0
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 91
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 18.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 6
+                },
+                "createdAt": 1709306580000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 67.5
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 80
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 24.8
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 16
+                },
+                "createdAt": 1709306640000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 63.2
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 77
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 35.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 6
+                },
+                "createdAt": 1709306700000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 55.6
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 84
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 11
+                },
+                "createdAt": 1709306760000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 61.8
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 91
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 26.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 3
+                },
+                "createdAt": 1709306820000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 77.2
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 95
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 34.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 3
+                },
+                "createdAt": 1709306880000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 69.6
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 84
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 19.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 6
+                },
+                "createdAt": 1709306940000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 52.2
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 75
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 20.2
+                }
+            }
+        ],
+        "station_2": [
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 11
+                },
+                "createdAt": 1709305200000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 74.6
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 74
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 17.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 1
+                },
+                "createdAt": 1709305260000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 59.2
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 87
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 38.2
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 17
+                },
+                "createdAt": 1709305320000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 58.4
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 94
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 35.2
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 2
+                },
+                "createdAt": 1709305380000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 70.4
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 82
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 25.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 16
+                },
+                "createdAt": 1709305440000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 68.1
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 87
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 24.2
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 12
+                },
+                "createdAt": 1709305500000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 63.6
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 87
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 34.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 2
+                },
+                "createdAt": 1709305560000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 78.9
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 89
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 28.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 4
+                },
+                "createdAt": 1709305620000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 63.1
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 75
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 21.2
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 1
+                },
+                "createdAt": 1709305680000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 75.0
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 96
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 24.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 18
+                },
+                "createdAt": 1709305740000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 52.9
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 98
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 18.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 4
+                },
+                "createdAt": 1709305800000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 76.9
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 81
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 31.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 18
+                },
+                "createdAt": 1709305860000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 64.7
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 99
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 16.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 7
+                },
+                "createdAt": 1709305920000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 71.8
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 92
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 7
+                },
+                "createdAt": 1709305980000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 74.0
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 85
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 20.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 9
+                },
+                "createdAt": 1709306040000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 74.7
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 82
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 25.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 1
+                },
+                "createdAt": 1709306100000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 56.9
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 99
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 38.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 1
+                },
+                "createdAt": 1709306160000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 61.7
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 93
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 21.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 4
+                },
+                "createdAt": 1709306220000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 60.6
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 97
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 24.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 9
+                },
+                "createdAt": 1709306280000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 75.7
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 75
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 21.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 18
+                },
+                "createdAt": 1709306340000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 57.9
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 84
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 16.4
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 0
+                },
+                "createdAt": 1709306400000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 55.8
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 72
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 31.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 15
+                },
+                "createdAt": 1709306460000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 71.9
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 78
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 33.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 13
+                },
+                "createdAt": 1709306520000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 78.1
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 78
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 31.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 12
+                },
+                "createdAt": 1709306580000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 78.7
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 71
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.2
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 16
+                },
+                "createdAt": 1709306640000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 62.4
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 97
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 28.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 10
+                },
+                "createdAt": 1709306700000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 65.5
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 92
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 26.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 12
+                },
+                "createdAt": 1709306760000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 77.4
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 96
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 29.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 5
+                },
+                "createdAt": 1709306820000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 68.9
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 95
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 33.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 4
+                },
+                "createdAt": 1709306880000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 59.9
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 81
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 32.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 19
+                },
+                "createdAt": 1709306940000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 66.0
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 70
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 34.5
+                }
+            }
+        ],
+        "station_3": [
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 0
+                },
+                "createdAt": 1709305200000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 77.4
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 79
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 31.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 17
+                },
+                "createdAt": 1709305260000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 63.7
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 81
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 38.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 7
+                },
+                "createdAt": 1709305320000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 55.8
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 87
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 6
+                },
+                "createdAt": 1709305380000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 64.1
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 97
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 34.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 6
+                },
+                "createdAt": 1709305440000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 73.4
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 96
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 27.8
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 7
+                },
+                "createdAt": 1709305500000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 67.8
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 71
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 33.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 8
+                },
+                "createdAt": 1709305560000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 59.8
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 91
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 33.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 15
+                },
+                "createdAt": 1709305620000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 68.6
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 95
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 31.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 5
+                },
+                "createdAt": 1709305680000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 51.0
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 88
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 32.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 0
+                },
+                "createdAt": 1709305740000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 62.1
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 87
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 18.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 17
+                },
+                "createdAt": 1709305800000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 78.9
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 97
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 20
+                },
+                "createdAt": 1709305860000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 68.0
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 83
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 21.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 2
+                },
+                "createdAt": 1709305920000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 70.0
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 98
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 32.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 8
+                },
+                "createdAt": 1709305980000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 75.4
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 80
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 25.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 4
+                },
+                "createdAt": 1709306040000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 53.6
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 83
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 35.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 0
+                },
+                "createdAt": 1709306100000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 69.2
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 98
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 32.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 20
+                },
+                "createdAt": 1709306160000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 68.9
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 96
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 38.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 14
+                },
+                "createdAt": 1709306220000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 51.7
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 92
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 16.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 8
+                },
+                "createdAt": 1709306280000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 60.5
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 81
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 19.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 0
+                },
+                "createdAt": 1709306340000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 64.4
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 77
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 19.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 20
+                },
+                "createdAt": 1709306400000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 79.7
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 84
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 32.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 4
+                },
+                "createdAt": 1709306460000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 66.5
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 70
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 16.2
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 3
+                },
+                "createdAt": 1709306520000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 72.7
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 96
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 32.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 16
+                },
+                "createdAt": 1709306580000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 55.7
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 73
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 16.8
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 13
+                },
+                "createdAt": 1709306640000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 52.9
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 82
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 39.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 7
+                },
+                "createdAt": 1709306700000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 71.5
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 78
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 34.4
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 18
+                },
+                "createdAt": 1709306760000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 63.8
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 70
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 36.8
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 6
+                },
+                "createdAt": 1709306820000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 79.6
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 73
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 34.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 11
+                },
+                "createdAt": 1709306880000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 72.8
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 99
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 24.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 10
+                },
+                "createdAt": 1709306940000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 74.2
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 93
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 34.6
+                }
+            }
+        ],
+        "station_4": [
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 18
+                },
+                "createdAt": 1709305200000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 70.5
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 76
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 17.2
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 20
+                },
+                "createdAt": 1709305260000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 70.8
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 98
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.8
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 14
+                },
+                "createdAt": 1709305320000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 69.7
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 82
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 38.4
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 13
+                },
+                "createdAt": 1709305380000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 79.6
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 100
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 11
+                },
+                "createdAt": 1709305440000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 67.3
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 79
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 35.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 8
+                },
+                "createdAt": 1709305500000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 54.2
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 72
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 37.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 17
+                },
+                "createdAt": 1709305560000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 58.8
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 86
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 25.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 4
+                },
+                "createdAt": 1709305620000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 60.8
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 97
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 0
+                },
+                "createdAt": 1709305680000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 72.5
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 89
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 36.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 16
+                },
+                "createdAt": 1709305740000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 72.1
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 86
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 34.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 1
+                },
+                "createdAt": 1709305800000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 58.6
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 84
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 25.8
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 10
+                },
+                "createdAt": 1709305860000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 78.9
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 87
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 33.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 0
+                },
+                "createdAt": 1709305920000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 72.3
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 76
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 35.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 20
+                },
+                "createdAt": 1709305980000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 74.7
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 80
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 35.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 6
+                },
+                "createdAt": 1709306040000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 59.7
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 79
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 21.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 18
+                },
+                "createdAt": 1709306100000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 59.1
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 88
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 15
+                },
+                "createdAt": 1709306160000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 60.2
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 72
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 30.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 20
+                },
+                "createdAt": 1709306220000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 78.5
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 71
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 31.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 17
+                },
+                "createdAt": 1709306280000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 78.4
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 89
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 20.2
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 7
+                },
+                "createdAt": 1709306340000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 75.6
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 80
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 17.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 15
+                },
+                "createdAt": 1709306400000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 78.4
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 95
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 33.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 12
+                },
+                "createdAt": 1709306460000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 78.6
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 94
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 16.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 6
+                },
+                "createdAt": 1709306520000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 53.5
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 86
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 23.8
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 5
+                },
+                "createdAt": 1709306580000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 79.6
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 90
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 31.4
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 13
+                },
+                "createdAt": 1709306640000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 56.0
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 89
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 16.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 20
+                },
+                "createdAt": 1709306700000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 54.1
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 80
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 32.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 18
+                },
+                "createdAt": 1709306760000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 52.5
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 71
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 19.4
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 19
+                },
+                "createdAt": 1709306820000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 64.2
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 74
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 37.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 14
+                },
+                "createdAt": 1709306880000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 59.6
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 83
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 37.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 17
+                },
+                "createdAt": 1709306940000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 53.4
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 79
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 20.2
+                }
+            }
+        ],
+        "station_5": [
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 9
+                },
+                "createdAt": 1709305200000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 56.7
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 82
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 37.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 7
+                },
+                "createdAt": 1709305260000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 64.6
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 94
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 17.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 15
+                },
+                "createdAt": 1709305320000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 70.3
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 90
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 30.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 20
+                },
+                "createdAt": 1709305380000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 62.6
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 93
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 22.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 15
+                },
+                "createdAt": 1709305440000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 67.1
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 80
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 26.2
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 0
+                },
+                "createdAt": 1709305500000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 73.5
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 96
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 36.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 2
+                },
+                "createdAt": 1709305560000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 58.7
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 77
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 28.1
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 14
+                },
+                "createdAt": 1709305620000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 54.9
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 76
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 20.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 16
+                },
+                "createdAt": 1709305680000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 75.6
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 79
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 38.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 19
+                },
+                "createdAt": 1709305740000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 67.4
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 100
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 26.4
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 12
+                },
+                "createdAt": 1709305800000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 65.9
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 91
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 33.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 14
+                },
+                "createdAt": 1709305860000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 72.1
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 79
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 22.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 20
+                },
+                "createdAt": 1709305920000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 56.0
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 73
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 19.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 3
+                },
+                "createdAt": 1709305980000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 54.8
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 74
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 32.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 1
+                },
+                "createdAt": 1709306040000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 54.1
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 81
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 25.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 1
+                },
+                "createdAt": 1709306100000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 58.3
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 93
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 28.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 18
+                },
+                "createdAt": 1709306160000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 56.2
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 71
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 28.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 7
+                },
+                "createdAt": 1709306220000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 77.8
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 80
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 19.3
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 7
+                },
+                "createdAt": 1709306280000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 67.2
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 99
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 15.8
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 20
+                },
+                "createdAt": 1709306340000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 64.6
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 71
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 29.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 2
+                },
+                "createdAt": 1709306400000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 59.0
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 88
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 39.7
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 9
+                },
+                "createdAt": 1709306460000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 59.9
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 97
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 39.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 18
+                },
+                "createdAt": 1709306520000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 54.0
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 94
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 22.4
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 2
+                },
+                "createdAt": 1709306580000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 66.9
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 73
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 19.8
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 15
+                },
+                "createdAt": 1709306640000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 59.9
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 77
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 20.9
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 5
+                },
+                "createdAt": 1709306700000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 55.9
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 77
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 17.5
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 3
+                },
+                "createdAt": 1709306760000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 54.4
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 88
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 35.0
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 2
+                },
+                "createdAt": 1709306820000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 56.8
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 84
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 24.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 14
+                },
+                "createdAt": 1709306880000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 78.9
+                },
+                "rain": {
+                    "value": 1
+                },
+                "sun": {
+                    "value": 92
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 33.6
+                }
+            },
+            {
+                "beesPerMinute": {
+                    "unit": "bee/m",
+                    "value": 3
+                },
+                "createdAt": 1709306940000,
+                "humidity": {
+                    "unit": "%",
+                    "value": 79.0
+                },
+                "rain": {
+                    "value": 0
+                },
+                "sun": {
+                    "value": 85
+                },
+                "temperature": {
+                    "unit": "\u00b0C",
+                    "value": 22.1
+                }
+            }
+        ]
+    },
+    "lastRecords": {
+        "station_1": {
+            "beesPerMinute": {
+                "unit": "bee/m",
+                "value": 6
+            },
+            "createdAt": 1709306940000,
+            "humidity": {
+                "unit": "%",
+                "value": 52.2
+            },
+            "rain": {
+                "value": 1
+            },
+            "sun": {
+                "value": 75
+            },
+            "temperature": {
+                "unit": "\u00b0C",
+                "value": 20.2
+            }
+        },
+        "station_2": {
+            "beesPerMinute": {
+                "unit": "bee/m",
+                "value": 19
+            },
+            "createdAt": 1709306940000,
+            "humidity": {
+                "unit": "%",
+                "value": 66.0
+            },
+            "rain": {
+                "value": 0
+            },
+            "sun": {
+                "value": 70
+            },
+            "temperature": {
+                "unit": "\u00b0C",
+                "value": 34.5
+            }
+        },
+        "station_3": {
+            "beesPerMinute": {
+                "unit": "bee/m",
+                "value": 10
+            },
+            "createdAt": 1709306940000,
+            "humidity": {
+                "unit": "%",
+                "value": 74.2
+            },
+            "rain": {
+                "value": 0
+            },
+            "sun": {
+                "value": 93
+            },
+            "temperature": {
+                "unit": "\u00b0C",
+                "value": 34.6
+            }
+        },
+        "station_4": {
+            "beesPerMinute": {
+                "unit": "bee/m",
+                "value": 17
+            },
+            "createdAt": 1709306940000,
+            "humidity": {
+                "unit": "%",
+                "value": 53.4
+            },
+            "rain": {
+                "value": 0
+            },
+            "sun": {
+                "value": 79
+            },
+            "temperature": {
+                "unit": "\u00b0C",
+                "value": 20.2
+            }
+        },
+        "station_5": {
+            "beesPerMinute": {
+                "unit": "bee/m",
+                "value": 3
+            },
+            "createdAt": 1709306940000,
+            "humidity": {
+                "unit": "%",
+                "value": 79.0
+            },
+            "rain": {
+                "value": 0
+            },
+            "sun": {
+                "value": 85
+            },
+            "temperature": {
+                "unit": "\u00b0C",
+                "value": 22.1
+            }
+        }
+    }
+}
