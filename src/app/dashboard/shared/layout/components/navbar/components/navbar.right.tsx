@@ -4,28 +4,14 @@ import {
   DropdownItem,
   DropdownMenu,
   DropdownTrigger,
-  User,
-  nextui
+  User
 } from '@nextui-org/react'
 import { THEMES, useThemeStore } from '@store/theme'
-import { useEffect } from 'react'
 import { TbMoon, TbSun } from 'react-icons/tb'
 
 export const NavbarRight = () => {
   const theme = useThemeStore((state) => state.theme)
   const setTheme = useThemeStore((state) => state.setTheme)
-
-  useEffect(() => {
-    nextui({
-      themes: {
-        dark: {
-          colors: {
-            primary: '#00ff'
-          }
-        }
-      }
-    })
-  }, [])
 
   return (
     <div className='flex items-center gap-4'>
@@ -35,7 +21,7 @@ export const NavbarRight = () => {
             as='button'
             avatarProps={{
               isBordered: true,
-              src: 'https://media.licdn.com/dms/image/D4E35AQF5-qT9SRqDDA/profile-framedphoto-shrink_800_800/0/1705793221342?e=1711346400&v=beta&t=MyXmTG8IZ0JQZi7eP8r1Hpea86Ejcyz9koHnpHojkFw',
+              src: 'https://avatar.vercel.sh/jane',
               size: 'sm'
             }}
             className='transition-transform'

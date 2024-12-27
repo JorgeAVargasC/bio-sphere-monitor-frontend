@@ -2,6 +2,7 @@ import DashboardLayout from '../layout'
 import { Navigate, RouteObject } from 'react-router-dom'
 import BeehivesPage from '@dashboard/beehives'
 import HistoryPage from '@dashboard/history'
+import AnalyticsPage from '@dashboard/analytics'
 
 export const dashboardRoutes: RouteObject = {
   path: '/dashboard',
@@ -18,6 +19,10 @@ export const dashboardRoutes: RouteObject = {
     {
       path: '/dashboard/history',
       element: <HistoryPage />
+    },
+    {
+      path: '/dashboard/analytics',
+      element: <AnalyticsPage />
     },
     {
       path: '*',
