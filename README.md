@@ -1,30 +1,109 @@
-# React + TypeScript + Vite
+# 🐝 Bee Key Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es el frontend para el sistema Bee Key, una herramienta diseñada para ayudar a los meliponicultores a monitorear las condiciones de sus colmenas mediante gráficos y alertas.
 
-Currently, two official plugins are available:
+## 📂 Estructura del proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El proyecto tiene una estructura modular organizada de la siguiente manera:
 
-## Expanding the ESLint configuration
+- **app/dashboard:** Contiene módulos como "analytics", "beehives", e "history", incluyendo componentes, gráficos y hooks específicos.
+- **app/shared:** Contiene componentes compartidos, hooks, layout, y utilidades reutilizables.
+- **app/providers:** Proveedores globales como NextUI, Toastify y más.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Para más detalles sobre la estructura de carpetas, consulta el directorio proporcionado en la descripción.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname
-  }
-}
+## 🚀 Instalación y Configuración
+
+Sigue los pasos a continuación para clonar y ejecutar el proyecto en tu entorno local.
+
+### 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/JorgeAVargasC/bee-key-frontend
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2️⃣ Acceder al directorio del proyecto
+
+```bash
+cd bee-key-frontend
+```
+
+### 3️⃣ Instalar dependencias
+
+```bash
+yarn install
+```
+
+### 4️⃣ Configurar variables de entorno
+
+Crea un archivo `.env` en la raíz del proyecto y define las variables de entorno necesarias. Consulta el archivo `.env.template` para conocer los valores requeridos.
+
+```bash
+cp .env.template .env
+```
+
+Configura tus credenciales de Firebase y otros parámetros según tu entorno.
+
+---
+
+## 🖥️ Ejecutar el proyecto localmente
+
+Para iniciar el servidor de desarrollo, ejecuta el siguiente comando:
+
+```bash
+yarn run dev
+```
+
+El servidor estará disponible en [http://localhost:5173](http://localhost:5173).
+
+---
+
+## 🛠️ Scripts disponibles
+
+### `yarn run dev`
+
+Inicia el servidor de desarrollo.
+
+### `yarn run build`
+
+Genera una versión optimizada del proyecto para producción.
+
+### `yarn run start`
+
+Inicia el servidor en modo de producción.
+
+### `yarn run lint`
+
+Verifica el código con ESLint para encontrar errores y malas prácticas.
+
+---
+
+## 🧪 Tecnologías utilizadas
+
+Este proyecto utiliza las siguientes tecnologías principales:
+
+- **React:** Biblioteca principal para construir la interfaz.
+- **TypeScript:** Tipado estático para JavaScript.
+- **Firebase:** Base de datos en tiempo real para almacenamiento de datos.
+- **NextUI:** Librería de componentes UI.
+- **Zustand:** Gestión de estado global.
+- **Toastify:** Notificaciones elegantes.
+- **Chart.js:** Visualización de gráficos interactivos.
+- **Styled Components y TailwindCSS:** Estilizado avanzado y utilitario.
+
+---
+
+<details>
+  <summary>❤️</summary>
+  
+  <blockquote>
+    <p>
+      <small>Finish with love ❤️ what you once started with love 💕</small>
+    </p>
+    <p>
+      <small>Maybe in another universe 🌌✨... it could have worked ✨</small>
+    </p>
+  </blockquote>
+</details>
