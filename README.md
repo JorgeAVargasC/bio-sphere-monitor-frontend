@@ -1,109 +1,85 @@
-# 🐝 Bee Key Frontend
+# 🌱 Bio Sphere Monitor Frontend
 
-Este proyecto es el frontend para el sistema Bee Key, una herramienta diseñada para ayudar a los meliponicultores a monitorear las condiciones de sus colmenas mediante gráficos y alertas.
+This project is the frontend for an environmental monitoring system designed to help visualize and track real-time data from multiple stations. It provides charts and alerts for variables like temperature, humidity, rainfall, sun exposure, and air quality.
 
-## 📂 Estructura del proyecto
+## 📂 Project Structure
 
-El proyecto tiene una estructura modular organizada de la siguiente manera:
+The codebase follows a modular structure organized as follows:
 
-- **app/dashboard:** Contiene módulos como "analytics", "beehives", e "history", incluyendo componentes, gráficos y hooks específicos.
-- **app/shared:** Contiene componentes compartidos, hooks, layout, y utilidades reutilizables.
-- **app/providers:** Proveedores globales como NextUI, Toastify y más.
+- **app/dashboard:** Contains modules like "analytics", "stations", and "history", including specific components, charts, and hooks.
+- **app/shared:** Holds shared components, hooks, layout, and reusable utilities.
+- **app/providers:** Global providers such as NextUI, Toastify, and others.
 
-Para más detalles sobre la estructura de carpetas, consulta el directorio proporcionado en la descripción.
+Refer to the directory structure in the project for more details.
 
 ---
 
-## 🚀 Instalación y Configuración
+## 🚀 Installation & Setup
 
-Sigue los pasos a continuación para clonar y ejecutar el proyecto en tu entorno local.
+Follow the steps below to clone and run the project locally.
 
-### 1️⃣ Clonar el repositorio
-
-```bash
-git clone https://github.com/JorgeAVargasC/bee-key-frontend
-```
-
-### 2️⃣ Acceder al directorio del proyecto
+### 1️⃣ Clone the repository
 
 ```bash
-cd bee-key-frontend
+git clone https://github.com/JorgeAVargasC/bio-sphere-frontend
 ```
 
-### 3️⃣ Instalar dependencias
+### 2️⃣ Navigate to the project directory
+
+```bash
+cd bio-sphere-frontend
+```
+
+### 3️⃣ Install dependencies
 
 ```bash
 yarn install
 ```
 
-### 4️⃣ Configurar variables de entorno
+### 4️⃣ Configure environment variables
 
-Crea un archivo `.env` en la raíz del proyecto y define las variables de entorno necesarias. Consulta el archivo `.env.template` para conocer los valores requeridos.
+Create a `.env` file at the root of the project and define the necessary environment variables. Refer to `.env.template` for required keys.
 
 ```bash
 cp .env.template .env
 ```
 
-Configura tus credenciales de Firebase y otros parámetros según tu entorno.
+Configure your Firebase credentials and any additional environment-specific parameters.
 
 ---
 
-## 🖥️ Ejecutar el proyecto localmente
+## 🖥️ Run the project locally
 
-Para iniciar el servidor de desarrollo, ejecuta el siguiente comando:
+To start the development server, run:
 
 ```bash
 yarn run dev
 ```
 
-El servidor estará disponible en [http://localhost:5173](http://localhost:5173).
+The app will be available at [http://localhost:5173](http://localhost:5173).
 
 ---
 
-## 🛠️ Scripts disponibles
+## 🛠️ Available Scripts
 
-### `yarn run dev`
-
-Inicia el servidor de desarrollo.
-
-### `yarn run build`
-
-Genera una versión optimizada del proyecto para producción.
-
-### `yarn run start`
-
-Inicia el servidor en modo de producción.
-
-### `yarn run lint`
-
-Verifica el código con ESLint para encontrar errores y malas prácticas.
+| Script           | Description                                           |
+| ---------------- | ----------------------------------------------------- |
+| `yarn run dev`   | Starts the development server.                        |
+| `yarn run build` | Builds the app for production.                        |
+| `yarn run start` | Runs the app in production mode.                      |
+| `yarn run lint`  | Runs ESLint to detect and fix issues in the codebase. |
 
 ---
 
-## 🧪 Tecnologías utilizadas
+## 🧪 Technologies Used
 
-Este proyecto utiliza las siguientes tecnologías principales:
+This project is built using the following core technologies:
 
-- **React:** Biblioteca principal para construir la interfaz.
-- **TypeScript:** Tipado estático para JavaScript.
-- **Firebase:** Base de datos en tiempo real para almacenamiento de datos.
-- **NextUI:** Librería de componentes UI.
-- **Zustand:** Gestión de estado global.
-- **Toastify:** Notificaciones elegantes.
-- **Chart.js:** Visualización de gráficos interactivos.
-- **Styled Components y TailwindCSS:** Estilizado avanzado y utilitario.
-
----
-
-<details>
-  <summary>❤️</summary>
-  
-  <blockquote>
-    <p>
-      <small>Finish with love ❤️ what you once started with love 💕</small>
-    </p>
-    <p>
-      <small>Maybe in another universe 🌌✨... it could have worked ✨</small>
-    </p>
-  </blockquote>
-</details>
+- **React** – UI library
+- **TypeScript** – Static typing
+- **Firebase** – Real-time database
+- **NextUI** – UI component library
+- **Zustand** – Global state management
+- **Toastify** – Notification system
+- **Chart.js** – Data visualization
+- **Styled Components & TailwindCSS** – Styling

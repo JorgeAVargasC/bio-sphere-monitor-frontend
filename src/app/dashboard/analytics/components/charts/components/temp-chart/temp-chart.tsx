@@ -1,11 +1,12 @@
 import { Card, CardBody, CardHeader } from '@nextui-org/react'
 import React from 'react'
 import ReactApexChart from 'react-apexcharts'
+
+import { ApexOptions } from 'apexcharts'
 import {
   StationData,
   StationName
-} from '../../interfaces/firebase-data.interface'
-import { ApexOptions } from 'apexcharts'
+} from '@dashboard/shared/types/firebase-data.interface'
 
 interface Props {
   stationName: StationName
@@ -13,10 +14,9 @@ interface Props {
 }
 
 export const TempChart: React.FC<Props> = ({ stationName, stationData }) => {
-  // Configuración del gráfico
   const chartData = [
     {
-      name: 'Temperatura',
+      name: 'Temperature',
       data: stationData.map((data) => ({
         x: new Date(data.createdAt).getTime(),
         y: data.temperature.value
@@ -37,7 +37,7 @@ export const TempChart: React.FC<Props> = ({ stationName, stationData }) => {
     },
     stroke: {
       curve: 'smooth',
-      colors: ['#f3a60d'],
+      colors: ['#5ea500'],
       width: 2
     },
     grid: {
@@ -61,7 +61,7 @@ export const TempChart: React.FC<Props> = ({ stationName, stationData }) => {
     },
     yaxis: {
       title: {
-        text: `Temperatura (${stationData[0]?.temperature.unit})`,
+        text: `Temperature (${stationData[0]?.temperature.unit})`,
         style: {
           color: '#aaa',
           fontWeight: 600,
@@ -82,14 +82,14 @@ export const TempChart: React.FC<Props> = ({ stationName, stationData }) => {
       }
     },
     tooltip: {
-      theme: 'light',
+      theme: 'dark',
       x: {
         format: 'MMM dd, yyyy HH:mm'
       }
     },
     markers: {
       size: 5,
-      colors: ['#f3a60d'],
+      colors: ['#5ea500'],
       strokeColors: '#fff',
       strokeWidth: 2
     }
@@ -99,7 +99,7 @@ export const TempChart: React.FC<Props> = ({ stationName, stationData }) => {
     <Card className='h-[300px] overflow-hidden'>
       <CardHeader>
         <h5 className='capitalize'>
-          {stationName.split('_').join(' ').replace('station', 'Colmena')}
+          {stationName.split('_').join(' ').replace('station', 'Station')}
         </h5>
       </CardHeader>
       <CardBody className='overflow-hidden'>

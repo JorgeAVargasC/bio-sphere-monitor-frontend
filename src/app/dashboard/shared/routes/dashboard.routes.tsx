@@ -1,6 +1,6 @@
 import DashboardLayout from '../layout'
 import { Navigate, RouteObject } from 'react-router-dom'
-import BeehivesPage from '@dashboard/beehives'
+import StationsPage from '@dashboard/stations'
 import HistoryPage from '@dashboard/history'
 import AnalyticsPage from '@dashboard/analytics'
 
@@ -10,11 +10,11 @@ export const dashboardRoutes: RouteObject = {
   children: [
     {
       index: true,
-      element: <Navigate to='/dashboard/beehives' />
+      element: <Navigate to='/dashboard/stations' />
     },
     {
-      path: '/dashboard/beehives',
-      element: <BeehivesPage />
+      path: '/dashboard/stations',
+      element: <StationsPage />
     },
     {
       path: '/dashboard/history',

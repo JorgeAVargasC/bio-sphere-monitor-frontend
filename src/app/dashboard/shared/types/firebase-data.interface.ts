@@ -1,9 +1,9 @@
 export interface IFirebaseData {
-  beehiveStation: BeehiveStations
+  station: Station
   lastRecords: Record<StationName, StationData>
 }
 
-export type BeehiveStations = Record<StationName, StationData[]>
+export type Station = Record<StationName, StationData[]>
 
 export type StationName =
   | 'station_1'
@@ -13,7 +13,7 @@ export type StationName =
   | 'station_5'
 
 export interface StationData {
-  beesPerMinute: Data
+  airQuality: Data
   createdAt: number
   humidity: Data
   rain: { value: number }

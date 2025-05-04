@@ -1,30 +1,28 @@
-import { useGetBeehivesData } from '@dashboard/shared/hooks'
-import { BeehiveTable } from './beehive-table'
-import { StationName } from '@dashboard/beehives/components/cards/interfaces'
+import { useGetStationsData } from '@dashboard/shared/hooks'
+import { StationsTable } from './stations-table'
 import { Card, CardBody } from '@nextui-org/react'
+import { StationName } from '@dashboard/shared/types/firebase-data.interface'
 
 export const Tables = () => {
-  const data = useGetBeehivesData()
+  const data = useGetStationsData()
 
   if (!data) {
     return (
       <Card>
-        <CardBody>No existe información en el momento</CardBody>
+        <CardBody>No Data Available</CardBody>
       </Card>
     )
   }
 
   return (
     <div className='grid gap-4'>
-      {Object.entries(data?.beehiveStation ?? {}).map(
-        ([stationName, stationData]) => (
-          <BeehiveTable
-            key={stationName}
-            stationData={stationData}
-            stationName={stationName as StationName}
-          />
-        )
-      )}
+      {Object.entries(data?.station ?? {}).map(([stationName, stationData]) => (
+        <StationsTable
+          key={stationName}
+          stationData={stationData}
+          stationName={stationName as StationName}
+        />
+      ))}
     </div>
   )
 }

@@ -1,29 +1,31 @@
 import { Card, CardBody, CardHeader } from '@nextui-org/react'
 import React from 'react'
 import ReactApexChart from 'react-apexcharts'
+
+import { ApexOptions } from 'apexcharts'
 import {
   StationData,
   StationName
-} from '../../interfaces/firebase-data.interface'
-import { ApexOptions } from 'apexcharts'
+} from '@dashboard/shared/types/firebase-data.interface'
+import { stationLabels } from '@dashboard/shared/components/station-labels'
 
 interface Props {
   stationName: StationName
   stationData: StationData[]
 }
 
-export const BeesActivityChart: React.FC<Props> = ({
+export const AirQualityChart: React.FC<Props> = ({
   stationName,
   stationData
 }) => {
   // Configuración del gráfico
   const chartData: ApexAxisChartSeries = [
     {
-      name: 'Abejas por minuto',
+      name: stationLabels['airQuality'],
       data: stationData.map((data) => {
         return {
           x: new Date(data.createdAt).getTime(),
-          y: data.beesPerMinute.value
+          y: data.airQuality.value
         }
       })
     }
@@ -66,7 +68,7 @@ export const BeesActivityChart: React.FC<Props> = ({
     },
     yaxis: {
       title: {
-        text: `Abejas por minuto (${stationData[0]?.beesPerMinute.unit})`,
+        text: `${stationLabels['airQuality']} (${stationData[0]?.airQuality.unit})`,
         style: {
           color: '#aaa',
           fontWeight: 600,
@@ -87,7 +89,7 @@ export const BeesActivityChart: React.FC<Props> = ({
       }
     },
     tooltip: {
-      theme: 'light',
+      theme: 'dark',
       x: {
         format: 'MMM dd, yyyy HH:mm'
       }
@@ -104,7 +106,7 @@ export const BeesActivityChart: React.FC<Props> = ({
     <Card className='h-[300px] overflow-hidden'>
       <CardHeader>
         <h5 className='capitalize'>
-          {stationName.split('_').join(' ').replace('station', 'Colmena')}
+          {stationName.split('_').join(' ').replace('station', 'Station')}
         </h5>
       </CardHeader>
       <CardBody className='overflow-hidden'>

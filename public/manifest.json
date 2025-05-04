@@ -1,8 +1,8 @@
 {
-  "name": "Bee K!",
-  "short_name": "Bee K!",
+  "name": "Bio Sphere!",
+  "short_name": "Bio Sphere!",
   "start_url": "/",
-  "description": "Bee K! is the best way to monitor your bee hives.",
+  "description": "Bio Sphere! is a system for monitoring air quality, temperature, humidity, and more from remote stations.",
   "display": "standalone",
   "icons": [
     {

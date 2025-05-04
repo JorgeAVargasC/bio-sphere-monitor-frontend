@@ -6,7 +6,7 @@ import {
   DropdownTrigger,
   User
 } from '@nextui-org/react'
-import { THEMES, useThemeStore } from '@store/theme'
+import { useThemeStore } from '@store/theme'
 import { TbMoon, TbSun } from 'react-icons/tb'
 
 export const NavbarRight = () => {
@@ -21,28 +21,26 @@ export const NavbarRight = () => {
             as='button'
             avatarProps={{
               isBordered: true,
-              src: 'https://avatar.vercel.sh/jane',
+              src: 'https://avatar.vercel.sh/9',
               size: 'sm'
             }}
             className='transition-transform'
-            description='@jane.doe'
-            name='Jane Doe'
+            description='@john.doe'
+            name='John Doe'
           />
         </DropdownTrigger>
         <DropdownMenu
           aria-label='User Actions'
           variant='flat'
         >
-          <DropdownItem key='system'>Sistema</DropdownItem>
-          <DropdownItem key='configurations'>Configuraciones</DropdownItem>
-          <DropdownItem key='help_and_feedback'>
-            Ayuda y Retroalimentación
-          </DropdownItem>
+          <DropdownItem key='system'>System</DropdownItem>
+          <DropdownItem key='configurations'>Settings</DropdownItem>
+          <DropdownItem key='help_and_feedback'>Help & Feedback</DropdownItem>
           <DropdownItem
             key='logout'
             color='danger'
           >
-            Cerrar Sesión
+            Log Out
           </DropdownItem>
           <DropdownItem key='theme'>
             <Button
@@ -61,28 +59,15 @@ export const NavbarRight = () => {
         </DropdownMenu>
       </Dropdown>
       <div className='hidden md:block'>
-        <Dropdown>
-          <DropdownTrigger>
-            <Button
-              aria-label='Toggle theme'
-              isIconOnly
-              variant='bordered'
-              size='sm'
-            >
-              {theme === 'light' ? <TbSun size={20} /> : <TbMoon size={20} />}
-            </Button>
-          </DropdownTrigger>
-          <DropdownMenu aria-label='Static Themes'>
-            {THEMES.map((item) => (
-              <DropdownItem
-                key={item.value}
-                onPress={() => setTheme(item.value)}
-              >
-                {item.label}
-              </DropdownItem>
-            ))}
-          </DropdownMenu>
-        </Dropdown>
+        <Button
+          aria-label='Toggle theme'
+          isIconOnly
+          variant='bordered'
+          size='sm'
+          onPress={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+        >
+          {theme === 'light' ? <TbSun size={20} /> : <TbMoon size={20} />}
+        </Button>
       </div>
     </div>
   )

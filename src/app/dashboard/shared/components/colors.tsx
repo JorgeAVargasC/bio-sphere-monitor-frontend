@@ -1,4 +1,4 @@
-import { MeasureState } from '../types'
+import { MeasureState } from '../types/measure-state.type'
 
 export const colors: Record<MeasureState, string> = {
   WARNING: 'text-warning',

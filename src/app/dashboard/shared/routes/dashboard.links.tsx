@@ -1,4 +1,4 @@
-import { GiHoneycomb } from 'react-icons/gi'
+import { IoLocationSharp } from 'react-icons/io5'
 import { TbChartBarPopular, TbHistory } from 'react-icons/tb'
 
 export type TypeLinks = {
@@ -10,17 +10,17 @@ export type TypeLinks = {
 
 export const DASHBOARD_LINKS: TypeLinks[] = [
   {
-    label: 'Mis Colmenas',
-    href: '/dashboard/beehives',
-    icon: <GiHoneycomb className='w-full h-auto' />
+    label: 'My Stations',
+    href: '/dashboard/stations',
+    icon: <IoLocationSharp className='w-full h-auto' />
   },
   {
-    label: 'Historial',
+    label: 'Record History',
     href: '/dashboard/history',
     icon: <TbHistory className='w-full h-auto' />
   },
   {
-    label: 'Estadísticas',
+    label: 'Analytics',
     href: '/dashboard/analytics',
     icon: <TbChartBarPopular className='w-full h-auto' />
   }

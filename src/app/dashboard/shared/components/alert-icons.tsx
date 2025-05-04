@@ -1,6 +1,6 @@
 import { TbAlertTriangleFilled } from 'react-icons/tb'
-import { MeasureState } from '../types'
 import { FaCheckCircle } from 'react-icons/fa'
+import { MeasureState } from '../types/measure-state.type'
 
 export const alertIcons: Record<MeasureState, React.ReactNode> = {
   WARNING: <TbAlertTriangleFilled size={18} />,

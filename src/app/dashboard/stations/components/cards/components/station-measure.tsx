@@ -1,17 +1,18 @@
 import { alertIcons } from '@dashboard/shared/components/alert-icons'
 import { colors } from '@dashboard/shared/components/colors'
-import { icons } from '@dashboard/shared/components/measure-icons'
-import { MeasureState, MeasureVariable } from '@dashboard/shared/types'
+import { stationIcons } from '@dashboard/shared/components/station-icons'
+import { MeasureState } from '@dashboard/shared/types/measure-state.type'
+import { MeasureVariables } from '@dashboard/shared/types/measure-variables.type'
 
 type Props = {
   name: string
   value: number
   state: MeasureState
   unit: string
-  measure: MeasureVariable
+  measure: MeasureVariables
 }
 
-export const ColmenaMeasure: React.FC<Props> = ({
+export const StationMeasure: React.FC<Props> = ({
   name,
   value,
   state,
@@ -25,7 +26,7 @@ export const ColmenaMeasure: React.FC<Props> = ({
         <h6>{name}</h6>
       </div>
       <div className='flex items-center'>
-        {icons[measure]}
+        {stationIcons[measure]}
         <p className='ml-1'>
           {value} {unit}
         </p>

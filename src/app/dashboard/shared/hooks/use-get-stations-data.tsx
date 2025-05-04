@@ -4,10 +4,10 @@ import {
 } from 'react'
 // import { ref, onValue, off } from 'firebase/database'
 // import { realtimeDB } from '../../../../firebase/firebase.config'
-import { IFirebaseData } from '@dashboard/beehives/components/cards/interfaces'
-import jsonData from '../data/updated_beehive_data.json'
+import jsonData from '../data/updated_stations_data.json'
+import { IFirebaseData } from '../types/firebase-data.interface'
 
-export const useGetBeehivesData = () => {
+export const useGetStationsData = () => {
   const [data] = useState<IFirebaseData | null>(jsonData)
 
   // * Realtime DB

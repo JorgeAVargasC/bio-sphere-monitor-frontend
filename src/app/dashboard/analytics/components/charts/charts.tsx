@@ -1,24 +1,23 @@
 import { Card, CardBody, Tab, Tabs } from '@nextui-org/react'
 
-import { StationName } from './interfaces/firebase-data.interface'
+import { useGetStationsData } from '@dashboard/shared/hooks'
 
-import { useGetBeehivesData } from '@dashboard/shared/hooks'
-import {
-  BeesActivityChart,
-  HumidityChart,
-  RainChart,
-  SunChart,
-  TempChart
-} from './components'
-import { icons } from '@dashboard/shared/components/measure-icons'
+import { stationIcons } from '@dashboard/shared/components/station-icons'
+import { StationName } from '@dashboard/shared/types/firebase-data.interface'
+import { stationLabels } from '@dashboard/shared/components/station-labels'
+import { TempChart } from './components/temp-chart/temp-chart'
+import { HumidityChart } from './components/humidity-chart/humidity-chart'
+import { AirQualityChart } from './components/air-quality-chart/air-quality-chart'
+import { RainChart } from './components/rain-chart/rain-chart'
+import { SunChart } from './components/sun-chart/sun-chart'
 
 export const Charts: React.FC = () => {
-  const data = useGetBeehivesData()
+  const data = useGetStationsData()
 
   if (!data) {
     return (
       <Card>
-        <CardBody>No existe información en el momento</CardBody>
+        <CardBody>No Data Available</CardBody>
       </Card>
     )
   }
@@ -30,13 +29,13 @@ export const Charts: React.FC = () => {
           key='temp'
           title={
             <div className='flex items-center gap-2'>
-              {icons['temperature']}
-              Temperatura
+              {stationIcons['temperature']}
+              {stationLabels['temperature']}
             </div>
           }
         >
           <div className='grid gap-4'>
-            {Object.entries(data?.beehiveStation ?? {}).map(
+            {Object.entries(data?.station ?? {}).map(
               ([stationName, stationData]) => (
                 <TempChart
                   key={stationName}
@@ -52,13 +51,13 @@ export const Charts: React.FC = () => {
           key='humidity'
           title={
             <div className='flex items-center gap-2'>
-              {icons['humidity']}
-              Humedad
+              {stationIcons['humidity']}
+              {stationLabels['humidity']}
             </div>
           }
         >
           <div className='grid gap-4'>
-            {Object.entries(data?.beehiveStation ?? {}).map(
+            {Object.entries(data?.station ?? {}).map(
               ([stationName, stationData]) => (
                 <HumidityChart
                   key={stationName}
@@ -71,18 +70,18 @@ export const Charts: React.FC = () => {
         </Tab>
 
         <Tab
-          key='bees'
+          key='airQuality'
           title={
             <div className='flex items-center gap-2'>
-              {icons['beesPerMinute']}
-              Abejas por minuto
+              {stationIcons['airQuality']}
+              {stationLabels['airQuality']}
             </div>
           }
         >
           <div className='grid gap-4'>
-            {Object.entries(data?.beehiveStation ?? {}).map(
+            {Object.entries(data?.station ?? {}).map(
               ([stationName, stationData]) => (
-                <BeesActivityChart
+                <AirQualityChart
                   key={stationName}
                   stationData={stationData}
                   stationName={stationName as StationName}
@@ -96,13 +95,13 @@ export const Charts: React.FC = () => {
           key='rain'
           title={
             <div className='flex items-center gap-2'>
-              {icons['rain']}
-              Lluvia
+              {stationIcons['rain']}
+              {stationLabels['rain']}
             </div>
           }
         >
           <div className='grid gap-4'>
-            {Object.entries(data?.beehiveStation ?? {}).map(
+            {Object.entries(data?.station ?? {}).map(
               ([stationName, stationData]) => (
                 <RainChart
                   key={stationName}
@@ -118,13 +117,13 @@ export const Charts: React.FC = () => {
           key='sun'
           title={
             <div className='flex items-center gap-2'>
-              {icons['sun']}
-              Sol
+              {stationIcons['sun']}
+              {stationLabels['sun']}
             </div>
           }
         >
           <div className='grid gap-4'>
-            {Object.entries(data?.beehiveStation ?? {}).map(
+            {Object.entries(data?.station ?? {}).map(
               ([stationName, stationData]) => (
                 <SunChart
                   key={stationName}

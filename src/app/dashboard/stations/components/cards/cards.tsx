@@ -1,17 +1,17 @@
 import { Card, CardBody } from '@nextui-org/react'
-import { ColmenaCard } from './components'
 
-import { StationName } from './interfaces/firebase-data.interface'
+import { StationName } from '../../../shared/types/firebase-data.interface'
 
-import { useGetBeehivesData } from '@dashboard/shared/hooks'
+import { useGetStationsData } from '@dashboard/shared/hooks'
+import { StationCard } from './components/station-card'
 
 export const Cards: React.FC = () => {
-  const data = useGetBeehivesData()
+  const data = useGetStationsData()
 
   if (!data) {
     return (
       <Card>
-        <CardBody>No existe información en el momento</CardBody>
+        <CardBody>No Data Available</CardBody>
       </Card>
     )
   }
@@ -21,7 +21,7 @@ export const Cards: React.FC = () => {
       <div className='grid gap-3 grid-cols-[repeat(auto-fill,minmax(350px,1fr))] md:grid-cols-[repeat(auto-fill,minmax(360px,1fr))]'>
         {Object.entries(data?.lastRecords ?? {}).map(
           ([stationName, stationData]) => (
-            <ColmenaCard
+            <StationCard
               key={stationName}
               stationData={stationData}
               stationName={stationName as StationName}

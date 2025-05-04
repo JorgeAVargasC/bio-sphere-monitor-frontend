@@ -41,7 +41,7 @@ small {
 }
 
 ::selection {
-  background-color: #f3a60d;
+  background-color: var(--tw-lime-500);
   color: white;
 }
 
@@ -57,8 +57,8 @@ html {
 
 /* Scroll Bar */
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
 }
 
 body::-webkit-scrollbar {
@@ -67,6 +67,6 @@ body::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #f3a60d;
+  background-color: #5ea500;
   border-radius: 10px;
 }

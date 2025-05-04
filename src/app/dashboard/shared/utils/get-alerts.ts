@@ -1,15 +1,16 @@
 import {
-  MAX_BEES_PER_MINUTE,
+  MAX_AIR_QUALITY,
   MAX_HUMIDITY,
   MAX_TEMPERATURE,
-  MIN_BEES_PER_MINUTE,
+  MIN_AIR_QUALITY,
   MIN_HUMIDITY,
   MIN_TEMPERATURE
 } from '../constants'
-import { MeasureState, MeasureVariable } from '../types'
+import { MeasureState } from '../types/measure-state.type'
+import { MeasureVariables } from '../types/measure-variables.type'
 
 export const getAlerts = (
-  measure: MeasureVariable,
+  measure: MeasureVariables,
   value: number
 ): MeasureState => {
   if (measure === 'temperature') {
@@ -24,9 +25,9 @@ export const getAlerts = (
     return 'DANGER'
   }
 
-  if (measure === 'beesPerMinute') {
-    if (value < MIN_BEES_PER_MINUTE) return 'WARNING'
-    if (value < MAX_BEES_PER_MINUTE) return 'OK'
+  if (measure === 'airQuality') {
+    if (value < MIN_AIR_QUALITY) return 'WARNING'
+    if (value < MAX_AIR_QUALITY) return 'OK'
     return 'DANGER'
   }
 

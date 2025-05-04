@@ -1,7 +1,7 @@
 import { useSidebarStore } from '@dashboard/shared/store'
 import { Button } from '@nextui-org/react'
-import { FaForumbee } from 'react-icons/fa'
 import { IoIosMenu } from 'react-icons/io'
+import { IoEarth } from 'react-icons/io5'
 import { Link } from 'react-router-dom'
 
 export const NavbarLeft = () => {
@@ -21,11 +21,11 @@ export const NavbarLeft = () => {
         to={'/dashboard'}
         className='flex md:hidden items-center gap-3'
       >
-        <FaForumbee
+        <IoEarth
           className='fill-primary min-w-[24px]'
           size={25}
         />
-        <h2 className=''>Bee K!</h2>
+        <h2 className=''>Bio Sphere!</h2>
       </Link>
 
       <h2 className='hidden md:block font-bold'>Dashboard</h2>

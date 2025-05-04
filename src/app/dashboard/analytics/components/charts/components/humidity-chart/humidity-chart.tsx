@@ -1,11 +1,12 @@
 import { Card, CardBody, CardHeader } from '@nextui-org/react'
 import React from 'react'
 import ReactApexChart from 'react-apexcharts'
+
+import { ApexOptions } from 'apexcharts'
 import {
   StationData,
   StationName
-} from '../../interfaces/firebase-data.interface'
-import { ApexOptions } from 'apexcharts'
+} from '@dashboard/shared/types/firebase-data.interface'
 
 interface Props {
   stationName: StationName
@@ -19,7 +20,7 @@ export const HumidityChart: React.FC<Props> = ({
   // Configuración del gráfico
   const chartData = [
     {
-      name: 'Humedad',
+      name: 'Humidity',
       data: stationData.map((data) => ({
         x: new Date(data.createdAt).toLocaleString(),
         y: data.humidity.value
@@ -64,7 +65,7 @@ export const HumidityChart: React.FC<Props> = ({
     },
     yaxis: {
       title: {
-        text: `Humedad (${stationData[0]?.humidity.unit})`,
+        text: `Humidity (${stationData[0]?.humidity.unit})`,
         style: {
           color: '#aaa',
           fontWeight: 600,
@@ -85,7 +86,7 @@ export const HumidityChart: React.FC<Props> = ({
       }
     },
     tooltip: {
-      theme: 'light',
+      theme: 'dark',
       x: {
         format: 'MMM dd, yyyy HH:mm'
       }
@@ -102,7 +103,7 @@ export const HumidityChart: React.FC<Props> = ({
     <Card className='h-[300px] overflow-hidden'>
       <CardHeader>
         <h5 className='capitalize'>
-          {stationName.split('_').join(' ').replace('station', 'Colmena')}
+          {stationName.split('_').join(' ').replace('station', 'Station')}
         </h5>
       </CardHeader>
       <CardBody className='overflow-hidden'>

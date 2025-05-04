@@ -1,11 +1,10 @@
 export const getDateFormatted = (dateNumber: number) => {
-  const formatter = new Intl.DateTimeFormat('es-CO', {
+  const formatter = new Intl.DateTimeFormat('en-US', {
     year: 'numeric',
-    month: '2-digit',
+    month: 'short',
     day: '2-digit',
     hour: 'numeric',
-    minute: 'numeric',
-    second: 'numeric',
+    minute: 'numeric'
   })
 
   const date = new Date(dateNumber)

@@ -1,11 +1,13 @@
 import { Card, CardBody, CardHeader } from '@nextui-org/react'
 import React from 'react'
 import ReactApexChart from 'react-apexcharts'
+
+import { ApexOptions } from 'apexcharts'
 import {
   StationData,
   StationName
-} from '../../interfaces/firebase-data.interface'
-import { ApexOptions } from 'apexcharts'
+} from '@dashboard/shared/types/firebase-data.interface'
+import { stationLabels } from '@dashboard/shared/components/station-labels'
 
 interface Props {
   stationName: StationName
@@ -13,10 +15,9 @@ interface Props {
 }
 
 export const RainChart: React.FC<Props> = ({ stationName, stationData }) => {
-  // Configuración del gráfico para la lluvia
   const chartData = [
     {
-      name: 'Lluvia',
+      name: stationLabels['rain'],
       data: stationData.map((data) => ({
         x: new Date(data.createdAt).getTime(),
         y: data.rain.value
@@ -61,7 +62,7 @@ export const RainChart: React.FC<Props> = ({ stationName, stationData }) => {
     },
     yaxis: {
       title: {
-        text: `Lluvia`, // Actualicé la unidad de Y
+        text: `${stationLabels['rain']}`, // Actualicé la unidad de Y
         style: {
           color: '#aaa',
           fontWeight: 600,
@@ -82,7 +83,7 @@ export const RainChart: React.FC<Props> = ({ stationName, stationData }) => {
       }
     },
     tooltip: {
-      theme: 'light',
+      theme: 'dark',
       x: {
         format: 'MMM dd, yyyy HH:mm'
       }
@@ -99,7 +100,7 @@ export const RainChart: React.FC<Props> = ({ stationName, stationData }) => {
     <Card className='h-[300px] overflow-hidden'>
       <CardHeader>
         <h5 className='capitalize'>
-          {stationName.split('_').join(' ').replace('station', 'Colmena')}
+          {stationName.split('_').join(' ').replace('station', 'Station')}
         </h5>
       </CardHeader>
       <CardBody className='overflow-hidden'>

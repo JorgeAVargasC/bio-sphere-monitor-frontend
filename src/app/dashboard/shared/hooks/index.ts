@@ -1,1 +1,1 @@
-export * from './use-get-beehives-data'
+export * from './use-get-stations-data'

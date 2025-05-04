@@ -12,9 +12,9 @@ import { motion } from 'framer-motion'
 import { Tooltip } from '@nextui-org/react'
 import { Link, useLocation } from 'react-router-dom'
 import { useSidebarStore } from '@dashboard/shared/store'
-import { FaForumbee } from 'react-icons/fa'
 import { MdKeyboardArrowLeft } from 'react-icons/md'
 import { DASHBOARD_LINKS } from '@dashboard/shared/routes'
+import { IoEarth } from 'react-icons/io5'
 
 export const Sidebar = () => {
   const sidebarState = useSidebarStore((state) => state.sidebarState)
@@ -40,7 +40,7 @@ export const Sidebar = () => {
 
   return (
     <>
-      <div
+      <button
         className={`fixed md:hidden top-0 left-0 w-full z-30
         ${sidebarState === 'open' ? 'opacity-50 bg-primary min-h-[100dvh]' : 'opacity-0 h-0'}`}
         onClick={toggle}
@@ -54,11 +54,11 @@ export const Sidebar = () => {
           to={'/dashboard'}
           className='flex items-center p-3 gap-3 h-[50px]'
         >
-          <FaForumbee
+          <IoEarth
             className='fill-primary min-w-[24px]'
             size={25}
           />
-          {sidebarState === 'open' && <h2 className='truncate'>Bee K!</h2>}
+          {sidebarState === 'open' && <h2 className='truncate'>Bio Sphere!</h2>}
         </Link>
 
         <div className='flex flex-col'>
@@ -106,29 +106,28 @@ export const Sidebar = () => {
                 transition={{ duration: 0.2 }}
                 className={`flex flex-col overflow-hidden ${sidebarState === 'open' ? 'border-l border-foreground-200 ml-6' : ''} `}
               >
-                {link.subRoutes &&
-                  link.subRoutes.map((subLink) => (
-                    <Tooltip
-                      key={subLink.href}
-                      content={subLink.label}
-                      placement='right'
+                {link.subRoutes?.map((subLink) => (
+                  <Tooltip
+                    key={subLink.href}
+                    content={subLink.label}
+                    placement='right'
+                  >
+                    <Link
+                      to={subLink.href}
+                      className={`flex cursor-pointer mx-1.5 mb-1 rounded-lg ${pathname === subLink.href ? 'bg-primary text-white duration-200 ease-in-out' : 'hover:bg-foreground-200 duration-200 ease-in-out'}`}
                     >
-                      <Link
-                        to={subLink.href}
-                        className={`flex cursor-pointer mx-1.5 mb-1 rounded-lg ${pathname === subLink.href ? 'bg-primary text-white duration-200 ease-in-out' : 'hover:bg-foreground-200 duration-200 ease-in-out'}`}
+                      <StyledSidebarAccordionIcon>
+                        {subLink.icon || <TbDots />}
+                      </StyledSidebarAccordionIcon>
+                      <StyledSidebarAccordionLabel
+                        $sidebarState={sidebarState}
+                        $sidebarWidth={sidebarWidth}
                       >
-                        <StyledSidebarAccordionIcon>
-                          {subLink.icon || <TbDots />}
-                        </StyledSidebarAccordionIcon>
-                        <StyledSidebarAccordionLabel
-                          $sidebarState={sidebarState}
-                          $sidebarWidth={sidebarWidth}
-                        >
-                          {subLink.label}
-                        </StyledSidebarAccordionLabel>
-                      </Link>
-                    </Tooltip>
-                  ))}
+                        {subLink.label}
+                      </StyledSidebarAccordionLabel>
+                    </Link>
+                  </Tooltip>
+                ))}
               </motion.div>
             </StyledSidebarAccordion>
           ))}
